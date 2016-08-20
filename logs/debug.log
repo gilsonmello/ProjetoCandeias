@@ -1,0 +1,873 @@
+2016-08-20 00:07:35 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\src\Template\Layout\default.ctp, line 64]
+Request URL: /Candeias/
+Referer URL: http://localhost/Candeias/usuarios/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\default.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:07:35 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\src\Template\Layout\default.ctp, line 64]
+Request URL: /Candeias/
+Referer URL: http://localhost/Candeias/usuarios/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\default.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:07:35 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\src\Template\Layout\default.ctp, line 68]
+Request URL: /Candeias/
+Referer URL: http://localhost/Candeias/usuarios/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\default.ctp, line 68
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:07:35 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\src\Template\Layout\default.ctp, line 68]
+Request URL: /Candeias/
+Referer URL: http://localhost/Candeias/usuarios/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\default.ctp, line 68
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:15:52 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 180]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 180
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:15:52 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 180]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 180
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:15:53 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 180]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 180
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:15:53 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 180]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 180
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:41 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 180]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 180
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:41 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 180]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 180
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:41 Notice: Notice (8): Undefined variable: sideBarLeft in [C:\wamp\www\Candeias\plugins\Admin\src\Template\Layout\default.ctp, line 60]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Layout\default.ctp, line 60
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 61
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:41 Notice: Notice (8): Undefined variable: crumb in [C:\wamp\www\Candeias\plugins\Admin\src\Template\Layout\default.ctp, line 275]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Layout\default.ctp, line 275
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 61
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:42 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 180]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 180
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:42 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 180]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 180
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:42 Notice: Notice (8): Undefined variable: sideBarLeft in [C:\wamp\www\Candeias\plugins\Admin\src\Template\Layout\default.ctp, line 60]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Layout\default.ctp, line 60
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 61
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:42 Notice: Notice (8): Undefined variable: crumb in [C:\wamp\www\Candeias\plugins\Admin\src\Template\Layout\default.ctp, line 275]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Layout\default.ctp, line 275
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 61
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:56 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 181]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 181
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:56 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 181]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 181
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:56 Notice: Notice (8): Undefined variable: sideBarLeft in [C:\wamp\www\Candeias\plugins\Admin\src\Template\Layout\default.ctp, line 60]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Layout\default.ctp, line 60
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 61
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:18:56 Notice: Notice (8): Undefined variable: crumb in [C:\wamp\www\Candeias\plugins\Admin\src\Template\Layout\default.ctp, line 275]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Layout\default.ctp, line 275
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 61
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:20:31 Notice: Notice (8): Undefined variable: sideBarLeft in [C:\wamp\www\Candeias\plugins\Admin\src\Template\Layout\default.ctp, line 60]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Layout\default.ctp, line 60
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 61
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:20:31 Notice: Notice (8): Undefined variable: crumb in [C:\wamp\www\Candeias\plugins\Admin\src\Template\Layout\default.ctp, line 275]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Layout\default.ctp, line 275
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 61
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:24:16 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [C:\wamp\www\Candeias\vendor\cakephp\cakephp\src\Controller\Controller.php, line 379]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 379
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 62
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:24:32 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [C:\wamp\www\Candeias\vendor\cakephp\cakephp\src\Controller\Controller.php, line 379]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 379
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 62
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:24:49 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [C:\wamp\www\Candeias\vendor\cakephp\cakephp\src\Controller\Controller.php, line 379]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 379
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 61
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:43:44 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 181]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 181
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:43:44 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 181]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 181
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:43:45 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 181]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 181
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:43:45 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 181]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 181
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:44:31 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 182]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 182
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:44:31 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 182]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 182
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:44:32 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 182]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 182
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:44:32 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 182]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 182
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:44:48 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 183]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 183
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:44:48 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 183]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 183
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:44:49 Notice: Notice (8): Undefined offset: 0 in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 183]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 183
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 00:44:49 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\AppController.php, line 183]
+Request URL: /Candeias/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::verificarPermissoes() - ROOT\plugins\Admin\src\Controller\AppController.php, line 183
+Admin\Controller\AppController::initialize() - ROOT\plugins\Admin\src\Controller\AppController.php, line 60
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 101
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 01:13:40 Notice: Notice (8): Undefined variable: event in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\UsuariosController.php, line 16]
+Request URL: /Candeias/admin/usuarios/cadastrados/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\UsuariosController::beforeFilter() - ROOT\plugins\Admin\src\Controller\UsuariosController.php, line 16
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 110
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 01:13:41 Notice: Notice (8): Undefined variable: event in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\UsuariosController.php, line 16]
+Request URL: /Candeias/admin/usuarios/cadastrados/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\UsuariosController::beforeFilter() - ROOT\plugins\Admin\src\Controller\UsuariosController.php, line 16
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 110
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 01:13:42 Notice: Notice (8): Undefined variable: event in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\UsuariosController.php, line 16]
+Request URL: /Candeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/Candeias/admin/usuarios/cadastrados/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\UsuariosController::beforeFilter() - ROOT\plugins\Admin\src\Controller\UsuariosController.php, line 16
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 110
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 01:13:43 Notice: Notice (8): Undefined variable: event in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\UsuariosController.php, line 16]
+Request URL: /Candeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/Candeias/admin/usuarios/cadastrados/admin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\UsuariosController::beforeFilter() - ROOT\plugins\Admin\src\Controller\UsuariosController.php, line 16
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 110
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 02:17:47 Notice: Notice (8): Undefined variable: tipo in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\UsuariosController.php, line 64]
+Request URL: /Candeias/admin/usuarios/admin/
+Referer URL: http://localhost/Candeias/admin/usuarios/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\UsuariosController::admin() - ROOT\plugins\Admin\src\Controller\UsuariosController.php, line 64
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 02:18:22 Notice: Notice (8): Undefined variable: tipo in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\UsuariosController.php, line 64]
+Request URL: /Candeias/admin/usuarios/admin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\UsuariosController::admin() - ROOT\plugins\Admin\src\Controller\UsuariosController.php, line 64
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 02:18:44 Notice: Notice (8): Undefined variable: tipo in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\UsuariosController.php, line 64]
+Request URL: /Candeias/admin/usuarios/admin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\UsuariosController::admin() - ROOT\plugins\Admin\src\Controller\UsuariosController.php, line 64
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 02:18:51 Notice: Notice (8): Undefined variable: tipo in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\UsuariosController.php, line 44]
+Request URL: /Candeias/admin/usuarios/alunos/
+Referer URL: http://localhost/Candeias/admin/usuarios/admin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\UsuariosController::alunos() - ROOT\plugins\Admin\src\Controller\UsuariosController.php, line 44
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 02:18:58 Notice: Notice (8): Undefined variable: tipo in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\UsuariosController.php, line 64]
+Request URL: /Candeias/admin/usuarios/admin/
+Referer URL: http://localhost/Candeias/admin/usuarios/alunos/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\UsuariosController::admin() - ROOT\plugins\Admin\src\Controller\UsuariosController.php, line 64
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-20 02:19:19 Notice: Notice (8): Undefined variable: tipo in [C:\wamp\www\Candeias\plugins\Admin\src\Controller\UsuariosController.php, line 44]
+Request URL: /Candeias/admin/usuarios/alunos/
+Referer URL: http://localhost/Candeias/admin/usuarios/admin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\UsuariosController::alunos() - ROOT\plugins\Admin\src\Controller\UsuariosController.php, line 44
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
