@@ -4112,3 +4112,897 @@ Stack Trace:
 #3 {main}
 
 
+2016-08-21 11:35:24 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-08-21 11:35:25 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:147
+2016-08-21 12:28:19 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-08-21 12:28:19 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-08-21 12:28:19 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-08-21 12:28:19 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-08-21 12:28:20 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-08-21 12:28:20 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-08-21 12:28:20 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-08-21 12:28:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => 'Admin',
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/admin/images/6.png
+Referer URL: http://localhost/ProjetoCandeias/admin/css/style.css
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:28:43 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:147
+2016-08-21 12:28:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:34:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Regras could not be found.
+Exception Attributes: array (
+  'class' => 'Regras',
+  'plugin' => 'Admin',
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/admin/regras/
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:34:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:34:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/galerias
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:34:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/galerias
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:35:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/galerias
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:36:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/galerias
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:36:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:37:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/galerias
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:37:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 12:41:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:14:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/css/bootstrap.css.map
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:15:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/css/bootstrap.css.map
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:15:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/css/bootstrap.css.map
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:15:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/css/bootstrap.css.map
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:15:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/css/bootstrap.css.map
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:15:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:36:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:37:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:37:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:37:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:37:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:38:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:39:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:39:37 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\EagerLoader.php, line 326]
+Request URL: /ProjetoCandeias/admin/principal
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-21 13:39:37 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:326
+2016-08-21 13:39:37 Error: [Cake\Error\FatalErrorException] Unsupported operand types
+Request URL: /ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Unsupported ope...', 'C:\\wamp\\www\\Pro...', 326)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-21 13:39:38 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\EagerLoader.php, line 326]
+Request URL: /ProjetoCandeias/admin/principal
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-21 13:39:38 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:326
+2016-08-21 13:39:38 Error: [Cake\Error\FatalErrorException] Unsupported operand types
+Request URL: /ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Unsupported ope...', 'C:\\wamp\\www\\Pro...', 326)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-21 13:40:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:40:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:41:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:41:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:41:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:43:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Secors.titulo' in 'order clause'
+Request URL: /ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(294): Cake\ORM\Query->all()
+#9 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(117): Cake\ORM\Query->toArray()
+#10 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(156): Admin\Controller\AppController->retornarSecoesUsuarios(23)
+#11 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(93): Admin\Controller\AppController->setSideBarLeft()
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(421): Admin\Controller\AppController->beforeRender(Object(Cake\Event\Event))
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#14 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#15 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(602): Cake\Controller\Controller->dispatchEvent('Controller.befo...')
+#16 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#17 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PrincipalController))
+#18 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#19 {main}
+
+
+2016-08-21 13:43:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Secoes.titulo' in 'order clause'
+Request URL: /ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(294): Cake\ORM\Query->all()
+#9 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(117): Cake\ORM\Query->toArray()
+#10 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(156): Admin\Controller\AppController->retornarSecoesUsuarios(23)
+#11 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(93): Admin\Controller\AppController->setSideBarLeft()
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(421): Admin\Controller\AppController->beforeRender(Object(Cake\Event\Event))
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#14 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#15 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(602): Cake\Controller\Controller->dispatchEvent('Controller.befo...')
+#16 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#17 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PrincipalController))
+#18 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#19 {main}
+
+
+2016-08-21 13:44:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Secoes.titulo' in 'order clause'
+Request URL: /ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(294): Cake\ORM\Query->all()
+#9 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(117): Cake\ORM\Query->toArray()
+#10 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(156): Admin\Controller\AppController->retornarSecoesUsuarios(23)
+#11 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(93): Admin\Controller\AppController->setSideBarLeft()
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(421): Admin\Controller\AppController->beforeRender(Object(Cake\Event\Event))
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#14 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#15 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(602): Cake\Controller\Controller->dispatchEvent('Controller.befo...')
+#16 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#17 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PrincipalController))
+#18 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#19 {main}
+
+
+2016-08-21 13:44:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Secoes.titulo' in 'order clause'
+Request URL: /ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(294): Cake\ORM\Query->all()
+#9 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(117): Cake\ORM\Query->toArray()
+#10 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(156): Admin\Controller\AppController->retornarSecoesUsuarios(23)
+#11 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(93): Admin\Controller\AppController->setSideBarLeft()
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(421): Admin\Controller\AppController->beforeRender(Object(Cake\Event\Event))
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#14 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#15 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(602): Cake\Controller\Controller->dispatchEvent('Controller.befo...')
+#16 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#17 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PrincipalController))
+#18 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#19 {main}
+
+
+2016-08-21 13:45:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Secoes.titulo' in 'order clause'
+Request URL: /ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(294): Cake\ORM\Query->all()
+#9 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(117): Cake\ORM\Query->toArray()
+#10 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(156): Admin\Controller\AppController->retornarSecoesUsuarios(23)
+#11 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(93): Admin\Controller\AppController->setSideBarLeft()
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(421): Admin\Controller\AppController->beforeRender(Object(Cake\Event\Event))
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#14 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#15 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(602): Cake\Controller\Controller->dispatchEvent('Controller.befo...')
+#16 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#17 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PrincipalController))
+#18 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#19 {main}
+
+
+2016-08-21 13:45:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Secoes.titulo' in 'order clause'
+Request URL: /ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(294): Cake\ORM\Query->all()
+#9 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(117): Cake\ORM\Query->toArray()
+#10 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(156): Admin\Controller\AppController->retornarSecoesUsuarios(23)
+#11 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(93): Admin\Controller\AppController->setSideBarLeft()
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(421): Admin\Controller\AppController->beforeRender(Object(Cake\Event\Event))
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#14 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#15 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(602): Cake\Controller\Controller->dispatchEvent('Controller.befo...')
+#16 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#17 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PrincipalController))
+#18 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#19 {main}
+
+
+2016-08-21 13:46:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Secoes.titulo' in 'order clause'
+Request URL: /ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(294): Cake\ORM\Query->all()
+#9 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(118): Cake\ORM\Query->toArray()
+#10 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(157): Admin\Controller\AppController->retornarSecoesUsuarios(23)
+#11 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(93): Admin\Controller\AppController->setSideBarLeft()
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(421): Admin\Controller\AppController->beforeRender(Object(Cake\Event\Event))
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#14 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#15 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(602): Cake\Controller\Controller->dispatchEvent('Controller.befo...')
+#16 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#17 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PrincipalController))
+#18 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#19 {main}
+
+
+2016-08-21 13:46:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Secoes.titulo' in 'order clause'
+Request URL: /ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(294): Cake\ORM\Query->all()
+#9 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(170): Cake\ORM\Query->toArray()
+#10 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php(93): Admin\Controller\AppController->setSideBarLeft()
+#11 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(421): Admin\Controller\AppController->beforeRender(Object(Cake\Event\Event))
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#14 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(602): Cake\Controller\Controller->dispatchEvent('Controller.befo...')
+#15 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#16 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PrincipalController))
+#17 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2016-08-21 13:46:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:52:48 Warning: Warning (4096): Argument 1 passed to Admin\Controller\AppController::Admin\Controller\{closure}() must be an instance of Admin\Controller\Query, instance of Cake\ORM\Query given, called in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Association\BelongsToMany.php on line 1233 and defined in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php, line 167]
+Request URL: /ProjetoCandeias/admin/principal
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::Admin\Controller\{closure}() - ROOT\plugins\Admin\src\Controller\AppController.php, line 167
+Cake\ORM\Association\BelongsToMany::_buildQuery() - CORE\src\ORM\Association\BelongsToMany.php, line 1233
+Cake\ORM\Association\BelongsToMany::eagerLoader() - CORE\src\ORM\Association\SelectableAssociationTrait.php, line 48
+Cake\ORM\EagerLoader::loadExternal() - CORE\src\ORM\EagerLoader.php, line 592
+Cake\ORM\Query::_execute() - CORE\src\ORM\Query.php, line 954
+Cake\ORM\Query::_all() - CORE\src\Datasource\QueryTrait.php, line 277
+Cake\ORM\Query::all() - CORE\src\ORM\Query.php, line 902
+Cake\ORM\Query::toArray() - CORE\src\Datasource\QueryTrait.php, line 294
+Admin\Controller\AppController::setSideBarLeft() - ROOT\plugins\Admin\src\Controller\AppController.php, line 172
+Admin\Controller\AppController::beforeRender() - ROOT\plugins\Admin\src\Controller\AppController.php, line 93
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 602
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-21 13:52:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:52:56 Warning: Warning (4096): Argument 1 passed to Admin\Controller\AppController::Admin\Controller\{closure}() must be an instance of Admin\Controller\Query, instance of Cake\ORM\Query given, called in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Association\BelongsToMany.php on line 1233 and defined in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php, line 167]
+Request URL: /ProjetoCandeias/admin/principal
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::Admin\Controller\{closure}() - ROOT\plugins\Admin\src\Controller\AppController.php, line 167
+Cake\ORM\Association\BelongsToMany::_buildQuery() - CORE\src\ORM\Association\BelongsToMany.php, line 1233
+Cake\ORM\Association\BelongsToMany::eagerLoader() - CORE\src\ORM\Association\SelectableAssociationTrait.php, line 48
+Cake\ORM\EagerLoader::loadExternal() - CORE\src\ORM\EagerLoader.php, line 592
+Cake\ORM\Query::_execute() - CORE\src\ORM\Query.php, line 954
+Cake\ORM\Query::_all() - CORE\src\Datasource\QueryTrait.php, line 277
+Cake\ORM\Query::all() - CORE\src\ORM\Query.php, line 902
+Cake\ORM\Query::toArray() - CORE\src\Datasource\QueryTrait.php, line 294
+Admin\Controller\AppController::setSideBarLeft() - ROOT\plugins\Admin\src\Controller\AppController.php, line 172
+Admin\Controller\AppController::beforeRender() - ROOT\plugins\Admin\src\Controller\AppController.php, line 93
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 602
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-21 13:52:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:53:11 Warning: Warning (4096): Argument 1 passed to Admin\Controller\AppController::Admin\Controller\{closure}() must be an instance of Admin\Controller\Query, instance of Cake\ORM\Query given, called in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Association\BelongsToMany.php on line 1233 and defined in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php, line 115]
+Request URL: /ProjetoCandeias/admin/principal
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::Admin\Controller\{closure}() - ROOT\plugins\Admin\src\Controller\AppController.php, line 115
+Cake\ORM\Association\BelongsToMany::_buildQuery() - CORE\src\ORM\Association\BelongsToMany.php, line 1233
+Cake\ORM\Association\BelongsToMany::eagerLoader() - CORE\src\ORM\Association\SelectableAssociationTrait.php, line 48
+Cake\ORM\EagerLoader::loadExternal() - CORE\src\ORM\EagerLoader.php, line 592
+Cake\ORM\Query::_execute() - CORE\src\ORM\Query.php, line 954
+Cake\ORM\Query::_all() - CORE\src\Datasource\QueryTrait.php, line 277
+Cake\ORM\Query::all() - CORE\src\ORM\Query.php, line 902
+Cake\ORM\Query::toArray() - CORE\src\Datasource\QueryTrait.php, line 294
+Admin\Controller\AppController::retornarSecoesUsuarios() - ROOT\plugins\Admin\src\Controller\AppController.php, line 120
+Admin\Controller\AppController::setSideBarLeft() - ROOT\plugins\Admin\src\Controller\AppController.php, line 159
+Admin\Controller\AppController::beforeRender() - ROOT\plugins\Admin\src\Controller\AppController.php, line 93
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 602
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-21 13:53:11 Warning: Warning (4096): Argument 1 passed to Admin\Controller\AppController::Admin\Controller\{closure}() must be an instance of Admin\Controller\Query, instance of Cake\ORM\Query given, called in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Association\BelongsToMany.php on line 1233 and defined in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php, line 170]
+Request URL: /ProjetoCandeias/admin/principal
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::Admin\Controller\{closure}() - ROOT\plugins\Admin\src\Controller\AppController.php, line 170
+Cake\ORM\Association\BelongsToMany::_buildQuery() - CORE\src\ORM\Association\BelongsToMany.php, line 1233
+Cake\ORM\Association\BelongsToMany::eagerLoader() - CORE\src\ORM\Association\SelectableAssociationTrait.php, line 48
+Cake\ORM\EagerLoader::loadExternal() - CORE\src\ORM\EagerLoader.php, line 592
+Cake\ORM\Query::_execute() - CORE\src\ORM\Query.php, line 954
+Cake\ORM\Query::_all() - CORE\src\Datasource\QueryTrait.php, line 277
+Cake\ORM\Query::all() - CORE\src\ORM\Query.php, line 902
+Cake\ORM\Query::toArray() - CORE\src\Datasource\QueryTrait.php, line 294
+Admin\Controller\AppController::setSideBarLeft() - ROOT\plugins\Admin\src\Controller\AppController.php, line 175
+Admin\Controller\AppController::beforeRender() - ROOT\plugins\Admin\src\Controller\AppController.php, line 93
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 602
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-21 13:53:12 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-21 13:53:12 Warning: Warning (4096): Argument 1 passed to Admin\Controller\AppController::Admin\Controller\{closure}() must be an instance of Admin\Controller\Query, instance of Cake\ORM\Query given, called in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Association\BelongsToMany.php on line 1233 and defined in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php, line 115]
+Request URL: /ProjetoCandeias/admin/principal
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::Admin\Controller\{closure}() - ROOT\plugins\Admin\src\Controller\AppController.php, line 115
+Cake\ORM\Association\BelongsToMany::_buildQuery() - CORE\src\ORM\Association\BelongsToMany.php, line 1233
+Cake\ORM\Association\BelongsToMany::eagerLoader() - CORE\src\ORM\Association\SelectableAssociationTrait.php, line 48
+Cake\ORM\EagerLoader::loadExternal() - CORE\src\ORM\EagerLoader.php, line 592
+Cake\ORM\Query::_execute() - CORE\src\ORM\Query.php, line 954
+Cake\ORM\Query::_all() - CORE\src\Datasource\QueryTrait.php, line 277
+Cake\ORM\Query::all() - CORE\src\ORM\Query.php, line 902
+Cake\ORM\Query::toArray() - CORE\src\Datasource\QueryTrait.php, line 294
+Admin\Controller\AppController::retornarSecoesUsuarios() - ROOT\plugins\Admin\src\Controller\AppController.php, line 120
+Admin\Controller\AppController::setSideBarLeft() - ROOT\plugins\Admin\src\Controller\AppController.php, line 159
+Admin\Controller\AppController::beforeRender() - ROOT\plugins\Admin\src\Controller\AppController.php, line 93
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 602
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-21 13:53:12 Warning: Warning (4096): Argument 1 passed to Admin\Controller\AppController::Admin\Controller\{closure}() must be an instance of Admin\Controller\Query, instance of Cake\ORM\Query given, called in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Association\BelongsToMany.php on line 1233 and defined in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\AppController.php, line 170]
+Request URL: /ProjetoCandeias/admin/principal
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\AppController::Admin\Controller\{closure}() - ROOT\plugins\Admin\src\Controller\AppController.php, line 170
+Cake\ORM\Association\BelongsToMany::_buildQuery() - CORE\src\ORM\Association\BelongsToMany.php, line 1233
+Cake\ORM\Association\BelongsToMany::eagerLoader() - CORE\src\ORM\Association\SelectableAssociationTrait.php, line 48
+Cake\ORM\EagerLoader::loadExternal() - CORE\src\ORM\EagerLoader.php, line 592
+Cake\ORM\Query::_execute() - CORE\src\ORM\Query.php, line 954
+Cake\ORM\Query::_all() - CORE\src\Datasource\QueryTrait.php, line 277
+Cake\ORM\Query::all() - CORE\src\ORM\Query.php, line 902
+Cake\ORM\Query::toArray() - CORE\src\Datasource\QueryTrait.php, line 294
+Admin\Controller\AppController::setSideBarLeft() - ROOT\plugins\Admin\src\Controller\AppController.php, line 175
+Admin\Controller\AppController::beforeRender() - ROOT\plugins\Admin\src\Controller\AppController.php, line 93
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 602
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-21 13:53:13 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-21 13:53:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:53:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:56:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 13:56:36 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-08-21 13:56:36 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149

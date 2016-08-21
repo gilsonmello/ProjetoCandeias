@@ -1,4 +1,5 @@
 <?php
+
 namespace Admin\Model\Table;
 
 use Cake\ORM\Query;
@@ -22,8 +23,7 @@ use Cake\Validation\Validator;
  *
  * @mixin \Cake\ORM\Behavior\TimestampBehavior
  */
-class UsuariosTable extends Table
-{
+class UsuariosTable extends Table {
 
     /**
      * Initialize method
@@ -31,23 +31,18 @@ class UsuariosTable extends Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
-    {
+    public function initialize(array $config) {
         parent::initialize($config);
 
         $this->table('usuarios');
         $this->displayField('id');
         $this->primaryKey('id');
-
         $this->addBehavior('Timestamp');
-
-        
         $this->belongsToMany('Secoes', [
             'foreignKey' => 'usuario_id',
             'targetForeignKey' => 'secao_id',
             'joinTable' => 'usuarios_secoes',
-            'className' => 'Admin.Secoes'
-            'order' => ['Secoes.titulo ASC']
+            'className' => 'Admin.Secoes',
         ]);
     }
 
@@ -57,95 +52,94 @@ class UsuariosTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
-    {
+    public function validationDefault(Validator $validator) {
         $validator
-            ->integer('id')
-            ->allowEmpty('id', 'create');
+                ->integer('id')
+                ->allowEmpty('id', 'create');
 
         $validator
-            ->allowEmpty('nome');
+                ->allowEmpty('nome');
 
         $validator
-            ->email('email')
-            ->allowEmpty('email');
+                ->email('email')
+                ->allowEmpty('email');
 
         $validator
-            ->allowEmpty('regra');
+                ->allowEmpty('regra');
 
         $validator
-            ->allowEmpty('senha');
+                ->allowEmpty('senha');
 
         $validator
-            ->allowEmpty('arquivo_foto');
+                ->allowEmpty('arquivo_foto');
 
         $validator
-            ->integer('sexo')
-            ->allowEmpty('sexo');
+                ->integer('sexo')
+                ->allowEmpty('sexo');
 
         $validator
-            ->allowEmpty('rg');
+                ->allowEmpty('rg');
 
         $validator
-            ->allowEmpty('cpf');
+                ->allowEmpty('cpf');
 
         $validator
-            ->allowEmpty('cnpj');
+                ->allowEmpty('cnpj');
 
         $validator
-            ->date('data_nascimento')
-            ->allowEmpty('data_nascimento');
+                ->date('data_nascimento')
+                ->allowEmpty('data_nascimento');
 
         $validator
-            ->allowEmpty('logradouro');
+                ->allowEmpty('logradouro');
 
         $validator
-            ->allowEmpty('numero');
+                ->allowEmpty('numero');
 
         $validator
-            ->allowEmpty('complemento');
+                ->allowEmpty('complemento');
 
         $validator
-            ->allowEmpty('bairro');
+                ->allowEmpty('bairro');
 
         $validator
-            ->allowEmpty('cidade');
+                ->allowEmpty('cidade');
 
         $validator
-            ->allowEmpty('estado');
+                ->allowEmpty('estado');
 
         $validator
-            ->allowEmpty('cep');
+                ->allowEmpty('cep');
 
         $validator
-            ->allowEmpty('telefone');
+                ->allowEmpty('telefone');
 
         $validator
-            ->allowEmpty('celular');
+                ->allowEmpty('celular');
 
         $validator
-            ->dateTime('data_ultimo_acesso')
-            ->allowEmpty('data_ultimo_acesso');
+                ->dateTime('data_ultimo_acesso')
+                ->allowEmpty('data_ultimo_acesso');
 
         $validator
-            ->boolean('status')
-            ->requirePresence('status', 'create')
-            ->notEmpty('status');
+                ->boolean('status')
+                ->requirePresence('status', 'create')
+                ->notEmpty('status');
 
         $validator
-            ->boolean('excluido')
-            ->requirePresence('excluido', 'create')
-            ->notEmpty('excluido');
+                ->boolean('excluido')
+                ->requirePresence('excluido', 'create')
+                ->notEmpty('excluido');
 
         $validator
-            ->allowEmpty('endereco');
+                ->allowEmpty('endereco');
 
         $validator
-            ->allowEmpty('ip');
+                ->allowEmpty('ip');
 
         $validator
-            ->dateTime('deletado')
-            ->allowEmpty('deletado');
+                ->dateTime('deletado')
+                ->allowEmpty('deletado');
 
         return $validator;
     }
@@ -157,11 +151,11 @@ class UsuariosTable extends Table
      * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
      * @return \Cake\ORM\RulesChecker
      */
-    public function buildRules(RulesChecker $rules)
-    {
+    public function buildRules(RulesChecker $rules) {
         $rules->add($rules->isUnique(['email']));
         $rules->add($rules->existsIn(['session_id'], 'Sessions'));
 
         return $rules;
     }
+
 }

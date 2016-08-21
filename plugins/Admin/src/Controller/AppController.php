@@ -5,6 +5,7 @@ namespace Admin\Controller;
 use App\Controller\AppController as BaseController;
 use Cake\Event\Event;
 use Cake\Auth\DefaultPasswordHasher;
+use Cake\ORM\Query;
 
 class AppController extends BaseController {
 
@@ -37,7 +38,10 @@ class AppController extends BaseController {
                     'foreignKey' => 'usuario_id',
                     'targetForeignKey' => 'secao_id',
                     'joinTable' => 'usuarios_secoes',
-                    'className' => 'Admin.Secoes'
+                    'className' => 'Admin.Secoes',
+                    'order' => [
+                        'Secoes.titulo' => 'DESC'
+                    ]
         ]);
         //Relacionamento tabelas secoes e usuarios
         $this->loadModel('Secoes')
@@ -45,7 +49,10 @@ class AppController extends BaseController {
                     'foreignKey' => 'secao_id',
                     'targetForeignKey' => 'usuario_id',
                     'joinTable' => 'usuarios_secoes',
-                    'className' => 'Admin.Usuarios'
+                    'className' => 'Admin.Usuarios',
+                    'order' => [
+                        'Secoes.titulo' => 'DESC'
+                    ]
         ]);
         //Relacionamento das secoes níveis 2
         $this->loadModel('Secoes')
@@ -97,17 +104,20 @@ class AppController extends BaseController {
     protected function retornarSecoesUsuarios($id = NULL) {
         if (isset($id)) {
             $query = $this->Usuarios->find('all', [
-                                'conditions' => [
-                                    'id' => $id
-                                ]
-                            ])
-                            ->contain([
-                                'Secoes' => [
-                                    'conditions' => [
-                                        'Secoes.nivel' => 1
-                                    ]
-                                ]
-                            ])->toArray();
+                        'conditions' => [
+                            'id' => $id
+                        ]
+                    ])->contain([
+                        'Secoes' => [
+                            'conditions' => [
+                                'Secoes.nivel' => 1
+                            ],
+                            'queryBuilder' => function (Query $q) {
+                        return $q->order(['Secoes.titulo' => 'ASC']);
+                    }
+                        ]
+                    ])
+                    ->toArray();
 
             return $query;
         }
@@ -149,23 +159,27 @@ class AppController extends BaseController {
         $usuariosSecoes = $this->retornarSecoesUsuarios($this->Auth->user('id'));
 
         $subsecoesUsuarios = $this->Usuarios->find('all', [
-                            'conditions' => [
-                                'id' => $this->Auth->user('id')
-                            ]
-                        ])
-                        ->contain(['Secoes' => [
-                                'conditions' => [
-                                    'Secoes.nivel' => 2
-                                ]
-                            ]
-                        ])->toArray();
+                    'conditions' => [
+                        'id' => $this->Auth->user('id')
+                    ]
+                ])
+                ->contain(['Secoes' => [
+                        'conditions' => [
+                            'Secoes.nivel' => 2
+                        ],
+                        'queryBuilder' => function (Query $q) {
+                    return $q->order(['Secoes.titulo' => 'ASC']);
+                }
+                    ]
+                ])
+                ->toArray();
 
 
 
         return $this->Sidebarleft->setSideBarLeft($subsecoesUsuarios, $usuariosSecoes, $this->url);
     }
 
-    protected function verificarPermissoes() {
+    public function verificarPermissoes() {
         $usuariosSecoes = $this->Usuarios->find('all', [
                             'conditions' => [
                                 'id' => (int) $this->usuarioLogado
