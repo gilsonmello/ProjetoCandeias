@@ -3,6 +3,7 @@
 namespace Admin\Controller;
 
 use Admin\Controller\AppController;
+use Cake\Event\Event;
 
 /**
  * Cursos Controller
@@ -59,10 +60,10 @@ class CursosController extends AppController {
     public function add() {
         $curso = $this->Cursos->newEntity();
         if ($this->request->is('post')) {
+
             $curso = $this->Cursos->patchEntity($curso, $this->request->data);
             if ($this->Cursos->save($curso)) {
                 $this->Flash->success(__('The curso has been saved.'));
-
                 return $this->redirect(['action' => 'index']);
             } else {
                 $this->Flash->error(__('The curso could not be saved. Please, try again.'));
@@ -70,7 +71,7 @@ class CursosController extends AppController {
         }
 //        $matriculas = $this->Cursos->Matriculas->find('list', ['limit' => 200]);
 //        $professores = $this->Cursos->Professores->find('list', ['limit' => 200]);
-        $this->set(compact('curso', 'matriculas', 'professores'));
+        $this->set(compact('curso'));
         $this->set('_serialize', ['curso']);
     }
 
@@ -83,7 +84,7 @@ class CursosController extends AppController {
      */
     public function edit($id = null) {
         $curso = $this->Cursos->get($id, [
-            'contain' => ['Matriculas', 'Professores']
+            'contain' => []
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $curso = $this->Cursos->patchEntity($curso, $this->request->data);
@@ -95,9 +96,7 @@ class CursosController extends AppController {
                 $this->Flash->error(__('The curso could not be saved. Please, try again.'));
             }
         }
-        $matriculas = $this->Cursos->Matriculas->find('list', ['limit' => 200]);
-        $professores = $this->Cursos->Professores->find('list', ['limit' => 200]);
-        $this->set(compact('curso', 'matriculas', 'professores'));
+        $this->set(compact('curso'));
         $this->set('_serialize', ['curso']);
     }
 

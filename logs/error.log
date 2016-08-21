@@ -5006,3 +5006,649 @@ Stack Trace:
 
 2016-08-21 13:56:36 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
 2016-08-21 13:56:36 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-08-21 18:15:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => 'Admin',
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/admin/images/6.png
+Referer URL: http://localhost/ProjetoCandeias/admin/css/style.css
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 18:16:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => 'Admin',
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/admin/images/6.png
+Referer URL: http://localhost/ProjetoCandeias/admin/css/style.css
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 18:16:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 18:16:28 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:16:29 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:16:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 18:16:48 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:16:48 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:17:01 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/alunos/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:17:02 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/alunos/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:18:34 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/alunos/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:18:35 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/alunos/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:18:39 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:18:40 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:18:45 Error: [InvalidArgumentException] Usuarios is not associated with Sessions
+Request URL: /ProjetoCandeias/admin/usuarios/view/1
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(255): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\UsuariosTable), 'Sessions', Array, Array)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(380): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\UsuariosTable))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(351): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\UsuariosTable))
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(981): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\UsuariosTable), true)
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(932): Cake\ORM\Query->_transformQuery()
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(122): Cake\ORM\Query->sql()
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(221): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#10 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#11 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(405): Cake\ORM\Query->all()
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(416): Cake\ORM\Query->first()
+#14 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1217): Cake\ORM\Query->firstOrFail()
+#15 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\UsuariosController.php(78): Cake\ORM\Table->get('1', Array)
+#16 [internal function]: Admin\Controller\UsuariosController->view('1')
+#17 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#18 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#19 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#20 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#21 {main}
+
+
+2016-08-21 18:18:51 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:18:51 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:22:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 18:22:34 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/edit/1
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:22:35 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/edit/1
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:27:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => 'Admin',
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/admin/images/6.png
+Referer URL: http://localhost/ProjetoCandeias/admin/css/style.css
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 18:27:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 18:27:55 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/alunos/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:27:56 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/alunos/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:28:01 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:28:02 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:29:20 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:29:21 Error: [Cake\Controller\Exception\MissingActionException] Action UsuariosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/usuarios/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\UsuariosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:29:38 Warning: Warning (4096): Argument 1 passed to Admin\Controller\CursosController::beforeFilter() must be an instance of Admin\Controller\Event, instance of Cake\Event\Event given, called in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\CursosController.php, line 14]
+Request URL: /ProjetoCandeias/admin/cursos/
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\CursosController::beforeFilter() - ROOT\plugins\Admin\src\Controller\CursosController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 110
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-21 18:29:39 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-21 18:29:39 Warning: Warning (4096): Argument 1 passed to Admin\Controller\CursosController::beforeFilter() must be an instance of Admin\Controller\Event, instance of Cake\Event\Event given, called in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\CursosController.php, line 14]
+Request URL: /ProjetoCandeias/admin/cursos/
+Referer URL: http://localhost/ProjetoCandeias/admin/usuarios/admin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Admin\Controller\CursosController::beforeFilter() - ROOT\plugins\Admin\src\Controller\CursosController.php, line 14
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 110
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-21 18:29:40 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-21 18:36:37 Warning: Warning (512): Association property name "visualizacoes" clashes with field of same name of table "cursos". You should explicitly specify the "propertyName" option. in [C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Association.php, line 455]
+Request URL: /ProjetoCandeias/admin/cursos/add
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\ORM\Association::property() - CORE\src\ORM\Association.php, line 455
+Cake\ORM\Marshaller::_buildPropertyMap() - CORE\src\ORM\Marshaller.php, line 89
+Cake\ORM\Marshaller::merge() - CORE\src\ORM\Marshaller.php, line 490
+Cake\ORM\Table::patchEntity() - CORE\src\ORM\Table.php, line 2206
+Admin\Controller\CursosController::add() - ROOT\plugins\Admin\src\Controller\CursosController.php, line 63
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-21 18:36:54 Warning: Warning (512): Association property name "visualizacoes" clashes with field of same name of table "cursos". You should explicitly specify the "propertyName" option. in [C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Association.php, line 455]
+Request URL: /ProjetoCandeias/admin/cursos/add
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\ORM\Association::property() - CORE\src\ORM\Association.php, line 455
+Cake\ORM\Marshaller::_buildPropertyMap() - CORE\src\ORM\Marshaller.php, line 89
+Cake\ORM\Marshaller::merge() - CORE\src\ORM\Marshaller.php, line 490
+Cake\ORM\Table::patchEntity() - CORE\src\ORM\Table.php, line 2206
+Admin\Controller\CursosController::add() - ROOT\plugins\Admin\src\Controller\CursosController.php, line 63
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-21 18:39:40 Error: [RuntimeException] ExistsIn rule for 'aula_id' is invalid. 'Aulas' is not associated with 'Admin\Model\Table\CursosTable'.
+Request URL: /ProjetoCandeias/admin/cursos/add
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/add
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\RuleInvoker.php(115): Cake\ORM\Rule\ExistsIn->__invoke(Object(Admin\Model\Entity\Curso), Array)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(298): Cake\Datasource\RuleInvoker->__invoke(Object(Admin\Model\Entity\Curso), Array)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(255): Cake\Datasource\RulesChecker->_checkRules(Object(Admin\Model\Entity\Curso), Array, Array)
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(231): Cake\Datasource\RulesChecker->checkCreate(Object(Admin\Model\Entity\Curso), Array)
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(66): Cake\Datasource\RulesChecker->check(Object(Admin\Model\Entity\Curso), 'create', Array)
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1509): Cake\ORM\Table->checkRules(Object(Admin\Model\Entity\Curso), 'create', Object(ArrayObject))
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1464): Cake\ORM\Table->_processSave(Object(Admin\Model\Entity\Curso), Object(ArrayObject))
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(570): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1465): Cake\Database\Connection->transactional(Object(Closure))
+#9 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\CursosController.php(65): Cake\ORM\Table->save(Object(Admin\Model\Entity\Curso))
+#10 [internal function]: Admin\Controller\CursosController->add()
+#11 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\CursosController))
+#14 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2016-08-21 18:39:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-08-21 18:49:08 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/1
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:49:09 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/1
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:49:27 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/1
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:49:28 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/1
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:49:48 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/1
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-21 18:49:48 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/1
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+

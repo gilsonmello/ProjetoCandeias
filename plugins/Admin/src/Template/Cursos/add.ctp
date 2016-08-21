@@ -1,26 +1,26 @@
 <h3 class="blank1">Adiconar Curso</h3>
 <div class="tab-content">
     <div class="tab-pane active" id="horizontal-form">
-        <form class="form-horizontal" method="post" action="/ProjetoCandeias/admin/usuarios/add">
+        <form class="form-horizontal" method="post" action="/ProjetoCandeias/admin/cursos/add">
             <div class="form-group">
-                <label for="focusedinput" class="col-sm-2 control-label">Nome</label>
+                <label for="focusedinput" class="col-sm-2 control-label">Título do Curso</label>
                 <div class="col-sm-8">
-                    <input name="nome" class="form-control1" id="focusedinput" placeholder="Nome" type="text">
+                    <input name="titulo" class="form-control1" id="focusedinput" placeholder="Título do Curso" type="text">
                 </div>
                 <!--<div class="col-sm-2 jlkdfj1">
                     <p class="help-block">Your help text!</p>
                 </div>-->
             </div>
             <div class="form-group">
-                <label for="focusedinput" class="col-sm-2 control-label">E-mail</label>
+                <label for="focusedinput" class="col-sm-2 control-label">Descrição</label>
                 <div class="col-sm-8">
-                    <input name="email" class="form-control1" id="focusedinput" placeholder="E-mail" type="text">
+                    <input name="descricao" class="form-control1" id="focusedinput" placeholder="Descrição" type="text">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputPassword" class="col-sm-2 control-label">Senha</label>
+                <label for="inputPassword" class="col-sm-2 control-label">Conteúdo</label>
                 <div class="col-sm-8">
-                    <input name="senha" class="form-control1" id="inputPassword" placeholder="Senha" type="password">
+                    <input name="conteudo" class="form-control1" id="focusedinput" placeholder="Conteúdo" type="text">
                 </div>
             </div>
 

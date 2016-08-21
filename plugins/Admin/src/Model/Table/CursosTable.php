@@ -1,4 +1,5 @@
 <?php
+
 namespace Admin\Model\Table;
 
 use Cake\ORM\Query;
@@ -30,8 +31,7 @@ use Cake\Validation\Validator;
  * @method \Admin\Model\Entity\Curso[] patchEntities($entities, array $data, array $options = [])
  * @method \Admin\Model\Entity\Curso findOrCreate($search, callable $callback = null)
  */
-class CursosTable extends Table
-{
+class CursosTable extends Table {
 
     /**
      * Initialize method
@@ -39,66 +39,65 @@ class CursosTable extends Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
-    {
+    public function initialize(array $config) {
         parent::initialize($config);
 
         $this->table('cursos');
         $this->displayField('id');
         $this->primaryKey('id');
 
-        $this->belongsTo('Aulas', [
-            'foreignKey' => 'aula_id',
-            'className' => 'Admin.Aulas'
-        ]);
-        $this->hasMany('Aulas', [
-            'foreignKey' => 'curso_id',
-            'className' => 'Admin.Aulas'
-        ]);
-        $this->hasMany('CuponsCursosModulosPacotes', [
-            'foreignKey' => 'curso_id',
-            'className' => 'Admin.CuponsCursosModulosPacotes'
-        ]);
-        $this->hasMany('CursosItens', [
-            'foreignKey' => 'curso_id',
-            'className' => 'Admin.CursosItens'
-        ]);
-        $this->hasMany('Iteracoes', [
-            'foreignKey' => 'curso_id',
-            'className' => 'Admin.Iteracoes'
-        ]);
-        $this->hasMany('Matriculas', [
-            'foreignKey' => 'curso_id',
-            'className' => 'Admin.Matriculas'
-        ]);
-        $this->hasMany('MensagensCursoModulosPacotes', [
-            'foreignKey' => 'curso_id',
-            'className' => 'Admin.MensagensCursoModulosPacotes'
-        ]);
-        $this->hasMany('Pagamentos', [
-            'foreignKey' => 'curso_id',
-            'className' => 'Admin.Pagamentos'
-        ]);
-        $this->hasMany('PedidosItens', [
-            'foreignKey' => 'curso_id',
-            'className' => 'Admin.PedidosItens'
-        ]);
-        $this->hasMany('Visualizacoes', [
-            'foreignKey' => 'curso_id',
-            'className' => 'Admin.Visualizacoes'
-        ]);
-        $this->belongsToMany('Matriculas', [
-            'foreignKey' => 'curso_id',
-            'targetForeignKey' => 'matricula_id',
-            'joinTable' => 'cursos_matriculas',
-            'className' => 'Admin.Matriculas'
-        ]);
-        $this->belongsToMany('Professores', [
-            'foreignKey' => 'curso_id',
-            'targetForeignKey' => 'professore_id',
-            'joinTable' => 'cursos_professores',
-            'className' => 'Admin.Professores'
-        ]);
+//        $this->belongsTo('Aulas', [
+//            'foreignKey' => 'aula_id',
+//            'className' => 'Admin.Aulas'
+//        ]);
+//        $this->hasMany('Aulas', [
+//            'foreignKey' => 'curso_id',
+//            'className' => 'Admin.Aulas'
+//        ]);
+//        $this->hasMany('CuponsCursosModulosPacotes', [
+//            'foreignKey' => 'curso_id',
+//            'className' => 'Admin.CuponsCursosModulosPacotes'
+//        ]);
+//        $this->hasMany('CursosItens', [
+//            'foreignKey' => 'curso_id',
+//            'className' => 'Admin.CursosItens'
+//        ]);
+//        $this->hasMany('Iteracoes', [
+//            'foreignKey' => 'curso_id',
+//            'className' => 'Admin.Iteracoes'
+//        ]);
+//        $this->hasMany('Matriculas', [
+//            'foreignKey' => 'curso_id',
+//            'className' => 'Admin.Matriculas'
+//        ]);
+//        $this->hasMany('MensagensCursoModulosPacotes', [
+//            'foreignKey' => 'curso_id',
+//            'className' => 'Admin.MensagensCursoModulosPacotes'
+//        ]);
+//        $this->hasMany('Pagamentos', [
+//            'foreignKey' => 'curso_id',
+//            'className' => 'Admin.Pagamentos'
+//        ]);
+//        $this->hasMany('PedidosItens', [
+//            'foreignKey' => 'curso_id',
+//            'className' => 'Admin.PedidosItens'
+//        ]);
+//        $this->hasMany('Visualizacoes', [
+//            'foreignKey' => 'curso_id',
+//            'className' => 'Admin.Visualizacoes'
+//        ]);
+//        $this->belongsToMany('Matriculas', [
+//            'foreignKey' => 'curso_id',
+//            'targetForeignKey' => 'matricula_id',
+//            'joinTable' => 'cursos_matriculas',
+//            'className' => 'Admin.Matriculas'
+//        ]);
+//        $this->belongsToMany('Professores', [
+//            'foreignKey' => 'curso_id',
+//            'targetForeignKey' => 'professore_id',
+//            'joinTable' => 'cursos_professores',
+//            'className' => 'Admin.Professores'
+//        ]);
     }
 
     /**
@@ -107,50 +106,49 @@ class CursosTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
-    {
-        $validator
-            ->integer('id')
-            ->allowEmpty('id', 'create');
-
-        $validator
-            ->allowEmpty('titulo');
-
-        $validator
-            ->allowEmpty('descricao');
-
-        $validator
-            ->numeric('preco')
-            ->requirePresence('preco', 'create')
-            ->notEmpty('preco');
-
-        $validator
-            ->integer('duracao')
-            ->requirePresence('duracao', 'create')
-            ->notEmpty('duracao');
-
-        $validator
-            ->dateTime('data_cadastro')
-            ->requirePresence('data_cadastro', 'create')
-            ->notEmpty('data_cadastro');
-
-        $validator
-            ->date('data_duracao')
-            ->requirePresence('data_duracao', 'create')
-            ->notEmpty('data_duracao');
-
-        $validator
-            ->boolean('excluido')
-            ->requirePresence('excluido', 'create')
-            ->notEmpty('excluido');
-
-        $validator
-            ->boolean('vendido_separadamente')
-            ->requirePresence('vendido_separadamente', 'create')
-            ->notEmpty('vendido_separadamente');
-
-        return $validator;
-    }
+//    public function validationDefault(Validator $validator) {
+//        $validator
+//                ->integer('id')
+//                ->allowEmpty('id', 'create');
+//
+//        $validator
+//                ->allowEmpty('titulo');
+//
+//        $validator
+//                ->allowEmpty('descricao');
+//
+//        $validator
+//                ->numeric('preco')
+//                ->requirePresence('preco', 'create')
+//                ->notEmpty('preco');
+//
+//        $validator
+//                ->integer('duracao')
+//                ->requirePresence('duracao', 'create')
+//                ->notEmpty('duracao');
+//
+//        $validator
+//                ->dateTime('data_cadastro')
+//                ->requirePresence('data_cadastro', 'create')
+//                ->notEmpty('data_cadastro');
+//
+//        $validator
+//                ->date('data_duracao')
+//                ->requirePresence('data_duracao', 'create')
+//                ->notEmpty('data_duracao');
+//
+//        $validator
+//                ->boolean('excluido')
+//                ->requirePresence('excluido', 'create')
+//                ->notEmpty('excluido');
+//
+//        $validator
+//                ->boolean('vendido_separadamente')
+//                ->requirePresence('vendido_separadamente', 'create')
+//                ->notEmpty('vendido_separadamente');
+//
+//        return $validator;
+//    }
 
     /**
      * Returns a rules checker object that will be used for validating
@@ -159,10 +157,9 @@ class CursosTable extends Table
      * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
      * @return \Cake\ORM\RulesChecker
      */
-    public function buildRules(RulesChecker $rules)
-    {
-        $rules->add($rules->existsIn(['aula_id'], 'Aulas'));
-
-        return $rules;
-    }
+//    public function buildRules(RulesChecker $rules) {
+//        $rules->add($rules->existsIn(['aula_id'], 'Aulas'));
+//
+//        return $rules;
+//    }
 }
