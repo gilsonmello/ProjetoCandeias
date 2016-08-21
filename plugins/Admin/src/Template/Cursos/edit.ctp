@@ -1,6 +1,6 @@
 <div class="tab-content">
     <div class="tab-pane active" id="horizontal-form">
-        <form class="form-horizontal" method="post" action="<?php echo BASE.'/'.strtolower($this->plugin).'/usuarios/edit/'. $curso->id;?>">
+        <form class="form-horizontal" method="post" action="<?php echo BASE.'/'.strtolower($this->plugin).'/cursos/edit/'. $curso->id;?>">
             <div class="form-group">
                 <label for="focusedinput" class="col-sm-2 control-label">Título</label>
                 <div class="col-sm-8">
