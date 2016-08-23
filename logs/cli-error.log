@@ -1,0 +1,24 @@
+2016-08-23 01:22:22 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Migration" could not be found.
+Exception Attributes: array (
+  'class' => 'Migration',
+)
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(223): Cake\Console\ShellDispatcher->findShell('migration')
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\ProjetoCandeias\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-08-23 01:23:48 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Cake" could not be found.
+Exception Attributes: array (
+  'class' => 'Cake',
+)
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(223): Cake\Console\ShellDispatcher->findShell('cake')
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\ProjetoCandeias\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
