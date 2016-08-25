@@ -60,8 +60,13 @@ class CursosController extends AppController {
     public function add() {
         $curso = $this->Cursos->newEntity();
         if ($this->request->is('post')) {
-
-            $curso = $this->Cursos->patchEntity($curso, $this->request->data);
+            die(var_dump($this->request->data));
+            $curso = $this->Cursos->patchEntity($curso, $this->request->data, [
+                'associated' => [
+                    'Categorias'
+                ]
+            ]);
+            
             if ($this->Cursos->save($curso)) {
                 $this->Flash->success(__('The curso has been saved.'));
                 return $this->redirect(['action' => 'index']);
@@ -71,7 +76,8 @@ class CursosController extends AppController {
         }
 //        $matriculas = $this->Cursos->Matriculas->find('list', ['limit' => 200]);
 //        $professores = $this->Cursos->Professores->find('list', ['limit' => 200]);
-        $this->set(compact('curso'));
+        $categorias = $this->Cursos->Categorias->find('all');
+        $this->set(compact('curso', 'categorias'));
         $this->set('_serialize', ['curso']);
     }
 

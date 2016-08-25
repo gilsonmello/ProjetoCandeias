@@ -3,6 +3,16 @@
     <div class="tab-pane active" id="horizontal-form">
         <form class="form-horizontal" method="post" action="/ProjetoCandeias/admin/cursos/add">
             <div class="form-group">
+                <label class="col-sm-2 control-label">Categorias</label>
+                <div class="col-sm-8">
+                    <select multiple="" class="form-control1">
+                        <?php foreach($categorias as $categoria):?>
+                            <option name="categorias[_ids][]" value="<?= $categoria->id ?>"><?= $categoria->nome ?></option>
+                        <?php endforeach;?>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
                 <label for="focusedinput" class="col-sm-2 control-label">Título do Curso</label>
                 <div class="col-sm-8">
                     <input name="titulo" class="form-control1" id="focusedinput" placeholder="Título do Curso" type="text">

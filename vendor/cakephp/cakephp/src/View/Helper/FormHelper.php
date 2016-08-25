@@ -1136,7 +1136,7 @@ class FormHelper extends Helper
      */
     protected function _getInput($fieldName, $options)
     {
-        switch ($options['type']) {
+        switch (strtolower($options['type'])) {
             case 'select':
                 $opts = $options['options'];
                 unset($options['options']);
@@ -1152,6 +1152,9 @@ class FormHelper extends Helper
                 unset($options['options']);
 
                 return $this->multiCheckbox($fieldName, $opts, $options);
+            case 'input':
+                throw new RuntimeException("Invalid type 'input' used for field '$fieldName'");
+
             default:
                 return $this->{$options['type']}($fieldName, $options);
         }
@@ -2466,7 +2469,11 @@ class FormHelper extends Helper
             unset($options['value']);
         }
         if (!isset($options['val'])) {
-            $options['val'] = $context->val($field);
+            $valOptions = [
+                'default' => isset($options['default']) ? $options['default'] : null,
+                'schemaDefault' => isset($options['schemaDefault']) ? $options['schemaDefault'] : true,
+            ];
+            $options['val'] = $context->val($field, $valOptions);
         }
         if (!isset($options['val']) && isset($options['default'])) {
             $options['val'] = $options['default'];

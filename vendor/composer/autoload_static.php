@@ -18,6 +18,10 @@ class ComposerStaticInite740499d9d0a539b3dd644599ef8b022
     );
 
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'Zend\\Diactoros\\' => 15,
+        ),
         'X' => 
         array (
             'XdgBaseDir\\' => 11,
@@ -34,6 +38,7 @@ class ComposerStaticInite740499d9d0a539b3dd644599ef8b022
         'P' => 
         array (
             'Psy\\' => 4,
+            'Psr\\Http\\Message\\' => 17,
             'PhpParser\\' => 10,
             'Phinx\\' => 6,
         ),
@@ -68,6 +73,10 @@ class ComposerStaticInite740499d9d0a539b3dd644599ef8b022
     );
 
     public static $prefixDirsPsr4 = array (
+        'Zend\\Diactoros\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
+        ),
         'XdgBaseDir\\' => 
         array (
             0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
@@ -99,6 +108,10 @@ class ComposerStaticInite740499d9d0a539b3dd644599ef8b022
         'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src/Psy',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'PhpParser\\' => 
         array (

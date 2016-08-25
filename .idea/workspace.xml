@@ -2,67 +2,687 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b943349-549f-4a5d-926f-1d84f8c43a6e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/br.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/src/Controller/EnrrolmentsController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/css/clndr.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/css/jqvmap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/css/lines.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/cloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/lo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/pic1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/pic2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/pic3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/pic4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/clndr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/d3.v3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/jquery.vmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/jquery.vmap.sampledata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/jquery.vmap.world.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/metisMenu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/moment-2.2.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/rickshaw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/site.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/underscore-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projeto.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/1.png" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/img/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/2.png" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/img/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/3.png" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/img/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/4.png" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/img/4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/img/5.png" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/img/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_cursos" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_cursos" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_secoes" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_secoes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_usuarios" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_usuarios" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_usuarios_secoes" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_usuarios_secoes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/debug_kit.sqlite" afterPath="$PROJECT_DIR$/tmp/debug_kit.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/br1.sql" afterPath="$PROJECT_DIR$/br1.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.php" afterPath="$PROJECT_DIR$/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/config/routes.php" afterPath="$PROJECT_DIR$/plugins/Admin/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Controller/AppController.php" afterPath="$PROJECT_DIR$/plugins/Admin/src/Controller/AppController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Controller/LoginController.php" afterPath="$PROJECT_DIR$/plugins/Admin/src/Controller/LoginController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Controller/PrincipalController.php" afterPath="$PROJECT_DIR$/plugins/Admin/src/Controller/PrincipalController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Model/Table/UsuariosTable.php" afterPath="$PROJECT_DIR$/plugins/Admin/src/Model/Table/UsuariosTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Layout/default.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Layout/default.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Login/index.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Login/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/tests/Fixture/UsuariosFixture.php" afterPath="$PROJECT_DIR$/plugins/Admin/tests/Fixture/UsuariosFixture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/css/font-awesome.css" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/css/style.css" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/webroot/js/Chart.js" afterPath="$PROJECT_DIR$/plugins/Admin/webroot/js/Chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/AjaxController.php" afterPath="$PROJECT_DIR$/src/Controller/AjaxController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/AppController.php" afterPath="$PROJECT_DIR$/src/Controller/AppController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/Component/BreadcrumbComponent.php" afterPath="$PROJECT_DIR$/src/Controller/Component/BreadcrumbComponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/UsuariosController.php" afterPath="$PROJECT_DIR$/src/Controller/UsuariosController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/bootstrap.css" afterPath="$PROJECT_DIR$/webroot/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/alunos/index.js" afterPath="$PROJECT_DIR$/webroot/js/alunos/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/bake" afterPath="$PROJECT_DIR$/vendor/cakephp/bake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/cli-debug.log" afterPath="$PROJECT_DIR$/logs/cli-debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/cli-error.log" afterPath="$PROJECT_DIR$/logs/cli-error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/debug.log" afterPath="$PROJECT_DIR$/logs/debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Controller/CursosController.php" afterPath="$PROJECT_DIR$/plugins/Admin/src/Controller/CursosController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Model/Table/CursosTable.php" afterPath="$PROJECT_DIR$/plugins/Admin/src/Model/Table/CursosTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Cursos/add.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Cursos/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Controller-controller-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-Controller-controller-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-add-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-add-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-delete-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-delete-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-edit-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-edit-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-index-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-index-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-view-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-view-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-form-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-Element-form-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Layout-default-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-Layout-default-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Model-entity-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-Model-entity-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Model-table-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-Model-table-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-config-skeleton-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-config-skeleton-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-tests-fixture-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-tests-fixture-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/Bake-tests-test-case-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/Bake-tests-test-case-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/add-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/add-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/edit-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/edit-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/index-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/index-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bake/view-ctp.php" afterPath="$PROJECT_DIR$/tmp/bake/view-ctp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp-plugins.php" afterPath="$PROJECT_DIR$/vendor/cakephp-plugins.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/VERSION.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/VERSION.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/config/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/config/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/config/cacert.pem" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/config/cacert.pem" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/config/config.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/contrib/pre-commit" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/contrib/pre-commit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/phpcs.xml.dist" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/phpcs.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/AbstractPasswordHasher.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/AbstractPasswordHasher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/BaseAuthorize.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/BaseAuthorize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/BasicAuthenticate.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/BasicAuthenticate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/ControllerAuthorize.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/ControllerAuthorize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/DefaultPasswordHasher.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/DefaultPasswordHasher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/DigestAuthenticate.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/DigestAuthenticate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/FallbackPasswordHasher.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/FallbackPasswordHasher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/FormAuthenticate.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/FormAuthenticate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/PasswordHasherFactory.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/PasswordHasherFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/Storage/MemoryStorage.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/Storage/MemoryStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/Storage/SessionStorage.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/Storage/SessionStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/Storage/StorageInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/Storage/StorageInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/WeakPasswordHasher.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/WeakPasswordHasher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Cache.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/CacheEngine.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/CacheEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/ApcEngine.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/ApcEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/MemcachedEngine.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/MemcachedEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/NullEngine.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/NullEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/RedisEngine.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/RedisEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/WincacheEngine.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/WincacheEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/XcacheEngine.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/Engine/XcacheEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Cache/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Collection.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/CollectionInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/CollectionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/ExtractTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/ExtractTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/BufferedIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/BufferedIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/ExtractIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/ExtractIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/FilterIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/FilterIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/InsertIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/InsertIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/MapReduce.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/MapReduce.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/NestIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/NestIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/NoChildrenIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/NoChildrenIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/ReplaceIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/ReplaceIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/SortIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/SortIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/StoppableIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/StoppableIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/TreeIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/TreeIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/TreePrinter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/TreePrinter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/UnfoldIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/UnfoldIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/ZipIterator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/Iterator/ZipIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/functions.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Collection/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleErrorHandler.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleInput.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleInput.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleInputArgument.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleInputArgument.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleInputOption.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleInputOption.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleInputSubcommand.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleInputSubcommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleIo.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleIo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/ConsoleException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/ConsoleException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/MissingHelperException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/MissingHelperException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/MissingShellException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/MissingShellException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/MissingShellMethodException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/MissingShellMethodException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/MissingTaskException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/MissingTaskException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/StopException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Exception/StopException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/HelpFormatter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/HelpFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Helper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/HelperRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/HelperRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Shell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/Shell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/TaskRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Console/TaskRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/CookieComponent.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/CookieComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/CsrfComponent.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/CsrfComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/RequestHandlerComponent.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/RequestHandlerComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/SecurityComponent.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/SecurityComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Controller.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/ErrorController.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/ErrorController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Exception/AuthSecurityException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Exception/AuthSecurityException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Exception/MissingActionException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Exception/MissingActionException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Exception/MissingComponentException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Exception/MissingComponentException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Exception/SecurityException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Exception/SecurityException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/App.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/App.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure/ConfigEngineInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure/ConfigEngineInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure/Engine/IniConfig.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure/Engine/IniConfig.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure/Engine/JsonConfig.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure/Engine/JsonConfig.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure/Engine/PhpConfig.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure/Engine/PhpConfig.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure/FileConfigTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure/FileConfigTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/ConventionsTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/ConventionsTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Exception/Exception.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Exception/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Exception/MissingPluginException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Exception/MissingPluginException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/InstanceConfigTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/InstanceConfigTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Plugin.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Plugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/StaticConfigTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/StaticConfigTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/functions.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Connection.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Dialect/PostgresDialectTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Dialect/PostgresDialectTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Dialect/SqliteDialectTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Dialect/SqliteDialectTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Dialect/SqlserverDialectTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Dialect/SqlserverDialectTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Dialect/TupleComparisonTranslatorTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Dialect/TupleComparisonTranslatorTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver/Sqlserver.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Driver/Sqlserver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Exception.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Exception/MissingConnectionException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Exception/MissingConnectionException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Exception/MissingDriverException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Exception/MissingDriverException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Exception/MissingExtensionException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Exception/MissingExtensionException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/BetweenExpression.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/BetweenExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/CaseExpression.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/CaseExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/Comparison.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/Comparison.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/FieldInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/FieldInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/FieldTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/FieldTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/FunctionExpression.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/FunctionExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/IdentifierExpression.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/IdentifierExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/OrderByExpression.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/OrderByExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/OrderClauseExpression.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/OrderClauseExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/TupleComparison.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/TupleComparison.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/UnaryExpression.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/UnaryExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/ValuesExpression.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Expression/ValuesExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/ExpressionInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/ExpressionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/FieldTypeConverter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/FieldTypeConverter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/FunctionsBuilder.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/FunctionsBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/IdentifierQuoter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/IdentifierQuoter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Log/LoggedQuery.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Log/LoggedQuery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Log/QueryLogger.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Log/QueryLogger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Query.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Query.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/QueryCompiler.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/QueryCompiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/Collection.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/MysqlSchema.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/MysqlSchema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/PostgresSchema.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/PostgresSchema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/SqliteSchema.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/SqliteSchema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/SqlserverSchema.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/SqlserverSchema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/Table.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Schema/Table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/SqlDialectTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/SqlDialectTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/SqliteCompiler.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/SqliteCompiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/SqlserverCompiler.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/SqlserverCompiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/BufferResultsTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/BufferResultsTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/CallbackStatement.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/CallbackStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/SqlserverStatement.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/SqlserverStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/StatementInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/StatementInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/BinaryType.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/BinaryType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/BoolType.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/BoolType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/DateTimeType.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/DateTimeType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/DateType.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/DateType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/FloatType.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/FloatType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/OptionalConvertInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/OptionalConvertInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/StringType.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/StringType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/TimeType.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/TimeType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/UuidType.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Type/UuidType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/TypeMap.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/TypeMap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/TypeMapTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/TypeMapTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/TypedResultInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/TypedResultInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/TypedResultTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/TypedResultTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/ValueBinder.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/ValueBinder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ConnectionInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ConnectionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/EntityInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/EntityInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Exception/InvalidPrimaryKeyException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Exception/InvalidPrimaryKeyException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Exception/MissingDatasourceConfigException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Exception/MissingDatasourceConfigException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Exception/MissingDatasourceException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Exception/MissingDatasourceException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Exception/MissingModelException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Exception/MissingModelException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Exception/RecordNotFoundException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Exception/RecordNotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/FixtureInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/FixtureInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/InvalidPropertyInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/InvalidPropertyInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/QueryCacher.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/QueryCacher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/QueryInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/QueryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/RepositoryInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/RepositoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ResultSetDecorator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ResultSetDecorator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ResultSetInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/ResultSetInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/RuleInvoker.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/RuleInvoker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/RulesAwareTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/RulesAwareTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/TableSchemaInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/TableSchemaInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/Debugger.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/Debugger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/ErrorHandler.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/ErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/FatalErrorException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/FatalErrorException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/PHP7ErrorException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Error/PHP7ErrorException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/Event.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventDispatcherInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventDispatcherInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventList.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventListenerInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventListenerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventManager.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Filesystem/File.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Filesystem/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Filesystem/Folder.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Filesystem/Folder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Filesystem/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Filesystem/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Filesystem/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Filesystem/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Filesystem/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Filesystem/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Form/Form.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Form/Form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Form/Schema.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Form/Schema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/ChainMessagesLoader.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/ChainMessagesLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Date.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/DateFormatTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/DateFormatTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Formatter/IcuFormatter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Formatter/IcuFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Formatter/SprintfFormatter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Formatter/SprintfFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/FrozenDate.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/FrozenDate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/FrozenTime.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/FrozenTime.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/I18n.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/I18n.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/MessagesFileLoader.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/MessagesFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Number.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Number.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Parser/MoFileParser.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Parser/MoFileParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Parser/PoFileParser.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Parser/PoFileParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/PluralRules.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/PluralRules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/RelativeTimeFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Time.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/Time.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/functions.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/I18n/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/Engine/BaseLog.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/Engine/BaseLog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/Engine/ConsoleLog.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/Engine/ConsoleLog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/Engine/FileLog.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/Engine/FileLog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/Engine/SyslogLog.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/Engine/SyslogLog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/Log.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/Log.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/LogEngineRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/LogEngineRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/LogTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/LogTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Log/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/AbstractTransport.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/AbstractTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Email.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Exception/MissingActionException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Exception/MissingActionException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Exception/MissingMailerException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Exception/MissingMailerException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Mailer.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Mailer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/MailerAwareTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/MailerAwareTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Transport/DebugTransport.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Transport/DebugTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Transport/MailTransport.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Transport/MailTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/CorsBuilder.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/CorsBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/BadRequestException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/BadRequestException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/ConflictException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/ConflictException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/ForbiddenException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/ForbiddenException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/GoneException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/GoneException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/HttpException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/HttpException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/InternalErrorException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/InternalErrorException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/InvalidCsrfTokenException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/InvalidCsrfTokenException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/MethodNotAllowedException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/MethodNotAllowedException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/NotAcceptableException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/NotAcceptableException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/NotFoundException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/NotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/NotImplementedException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/NotImplementedException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/ServiceUnavailableException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/ServiceUnavailableException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/SocketException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/SocketException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/UnauthorizedException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/UnauthorizedException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/UnavailableForLegalReasonsException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Exception/UnavailableForLegalReasonsException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Auth/Basic.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Auth/Basic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Auth/Digest.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Auth/Digest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Auth/Oauth.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Auth/Oauth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Client.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/CookieCollection.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/CookieCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/FormData.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/FormData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/FormData/Part.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/FormData/Part.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Message.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Request.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Response.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Http/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Request.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Response.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Session.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Session/CacheSession.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Session/CacheSession.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Session/DatabaseSession.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Session/DatabaseSession.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Socket.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Network/Socket.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/BelongsTo.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/BelongsTo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/DependentDeleteTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/DependentDeleteTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/ExternalAssociationTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/ExternalAssociationTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/HasMany.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/HasMany.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/HasOne.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/HasOne.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/SelectableAssociationTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Association/SelectableAssociationTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/AssociationCollection.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/AssociationCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/AssociationsNormalizerTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/AssociationsNormalizerTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/CounterCacheBehavior.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/CounterCacheBehavior.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/TimestampBehavior.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/TimestampBehavior.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/Translate/TranslateTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/Translate/TranslateTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/TranslateBehavior.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/TranslateBehavior.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/TreeBehavior.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/TreeBehavior.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/BehaviorRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/BehaviorRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/EagerLoadable.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/EagerLoadable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/EagerLoader.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/EagerLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Entity.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Entity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Exception/MissingBehaviorException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Exception/MissingBehaviorException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Exception/MissingEntityException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Exception/MissingEntityException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Exception/MissingTableClassException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Exception/MissingTableClassException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Exception/RolledbackTransactionException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Exception/RolledbackTransactionException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/LazyEagerLoader.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/LazyEagerLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Locator/LocatorAwareTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Locator/LocatorAwareTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Locator/LocatorInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Locator/LocatorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Marshaller.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Marshaller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Query.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Query.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/ResultSet.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/ResultSet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Rule/ExistsIn.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Rule/ExistsIn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Rule/IsUnique.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Rule/IsUnique.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Rule/ValidCount.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Rule/ValidCount.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/RulesChecker.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/RulesChecker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Table.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/TableRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/TableRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Dispatcher.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Dispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/DispatcherFactory.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/DispatcherFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Exception/MissingControllerException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Exception/MissingControllerException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Exception/MissingDispatcherFilterException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Exception/MissingDispatcherFilterException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Exception/MissingRouteException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Exception/MissingRouteException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Exception/RedirectException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Exception/RedirectException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Filter/AssetFilter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Filter/AssetFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Filter/LocaleSelectorFilter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Filter/LocaleSelectorFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/RequestActionTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/RequestActionTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Route/DashedRoute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Route/InflectedRoute.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Route/InflectedRoute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Route/PluginShortRoute.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Route/PluginShortRoute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Route/RedirectRoute.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Route/RedirectRoute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Route/Route.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Route/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/RouteCollection.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/RouteCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Router.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/CommandListShell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/CommandListShell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/CompletionShell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/CompletionShell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Helper/ProgressHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Helper/ProgressHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Helper/TableHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Helper/TableHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/I18nShell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/I18nShell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/OrmCacheShell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/OrmCacheShell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/PluginShell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/PluginShell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/RoutesShell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/RoutesShell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/ServerShell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/ServerShell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Task/AssetsTask.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Task/AssetsTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Task/CommandTask.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Task/CommandTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Task/ExtractTask.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Task/ExtractTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Task/LoadTask.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Task/LoadTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Task/UnloadTask.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Shell/Task/UnloadTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Element/auto_table_warning.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Element/auto_table_warning.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Element/exception_stack_trace.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Element/exception_stack_trace.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Element/exception_stack_trace_nav.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Element/exception_stack_trace_nav.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Element/plugin_class_error.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Element/plugin_class_error.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/fatal_error.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/fatal_error.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_action.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_action.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_behavior.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_behavior.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_cell_view.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_cell_view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_component.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_component.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_connection.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_connection.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_controller.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_controller.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_datasource.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_datasource.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_datasource_config.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_datasource_config.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_helper.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_helper.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_layout.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_layout.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_plugin.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_plugin.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_route.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_route.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_template.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_template.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_view.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/missing_view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/pdo_error.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Error/pdo_error.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Layout/dev_error.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Template/Layout/dev_error.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Constraint/EventFired.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Constraint/EventFired.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Constraint/EventFiredWith.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Constraint/EventFiredWith.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Fixture/FixtureInjector.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Fixture/FixtureInjector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Fixture/FixtureManager.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Fixture/FixtureManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Fixture/TestFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Fixture/TestFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestCase.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/StringCompareTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/StringCompareTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Stub/ConsoleOutput.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Stub/ConsoleOutput.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Stub/Response.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/Stub/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/TestCase.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/TestSuite.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/TestSuite/TestSuite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/CookieCryptTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/CookieCryptTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Crypto/Mcrypt.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Crypto/Mcrypt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Crypto/OpenSsl.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Crypto/OpenSsl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Exception/XmlException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Exception/XmlException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Hash.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Hash.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Inflector.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Inflector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/MergeVariablesTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/MergeVariablesTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Security.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Security.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Text.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Xml.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/Xml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Utility/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/RulesProvider.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/RulesProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ValidatableInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ValidatableInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/Validation.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/Validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ValidationRule.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ValidationRule.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ValidationSet.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ValidationSet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/Validator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/Validator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ValidatorAwareTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ValidatorAwareTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/AjaxView.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/AjaxView.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Cell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Cell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/CellTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/CellTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingCellException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingCellException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingCellViewException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingCellViewException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingElementException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingElementException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingHelperException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingHelperException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingLayoutException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingLayoutException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingTemplateException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingTemplateException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingViewException.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Exception/MissingViewException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Form/ArrayContext.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Form/ArrayContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Form/ContextInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Form/ContextInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Form/EntityContext.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Form/EntityContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Form/FormContext.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Form/FormContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Form/NullContext.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Form/NullContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/FlashHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/FlashHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/IdGeneratorTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/IdGeneratorTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/NumberHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/NumberHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/RssHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/RssHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/SecureFieldTokenTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/SecureFieldTokenTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/SessionHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/SessionHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/TimeHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/TimeHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/HelperRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/HelperRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/JsonView.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/JsonView.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/SerializedView.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/SerializedView.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/StringTemplate.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/StringTemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/StringTemplateTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/StringTemplateTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/View.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/View.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/ViewBlock.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/ViewBlock.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/ViewBuilder.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/ViewBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/BasicWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/BasicWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/ButtonWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/ButtonWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/CheckboxWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/CheckboxWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/DateTimeWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/DateTimeWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/FileWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/FileWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/LabelWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/LabelWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/MultiCheckboxWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/MultiCheckboxWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/NestingLabelWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/NestingLabelWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/RadioWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/RadioWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/SelectBoxWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/SelectBoxWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/TextareaWidget.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/TextareaWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/WidgetInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/WidgetInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/WidgetRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Widget/WidgetRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/XmlView.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/XmlView.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/basics.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/basics.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/ArticlesFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/ArticlesFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/ArticlesTagsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/ArticlesTagsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AssertHtmlTestCase.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AssertHtmlTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AssertIntegrationTestCase.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AssertIntegrationTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AttachmentsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AttachmentsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AuthUsersFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AuthUsersFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AuthorsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AuthorsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AuthorsTagsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/AuthorsTagsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CakeSessionsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CakeSessionsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CategoriesFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CategoriesFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CommentsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CommentsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CompositeIncrementsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CompositeIncrementsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CounterCacheCategoriesFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CounterCacheCategoriesFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CounterCachePostsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CounterCachePostsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CounterCacheUserCategoryPostsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CounterCacheUserCategoryPostsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CounterCacheUsersFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/CounterCacheUsersFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/FeaturedTagsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/FeaturedTagsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/FixturizedTestCase.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/FixturizedTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/GroupsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/GroupsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/GroupsMembersFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/GroupsMembersFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/MembersFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/MembersFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/MenuLinkTreesFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/MenuLinkTreesFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/NumberTreesFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/NumberTreesFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/OrdersFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/OrdersFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/PolymorphicTaggedFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/PolymorphicTaggedFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/PostsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/PostsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/ProductsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/ProductsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SessionsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SessionsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SiteArticlesFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SiteArticlesFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SiteArticlesTagsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SiteArticlesTagsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SiteAuthorsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SiteAuthorsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SiteTagsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SiteTagsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SpecialTagsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/SpecialTagsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/TagsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/TagsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/TagsTranslationsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/TagsTranslationsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/TestPluginCommentsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/TestPluginCommentsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/ThingsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/ThingsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/TranslatesFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/TranslatesFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/UsersFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/UsersFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/UuiditemsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/UuiditemsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/UuidportfoliosFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/UuidportfoliosFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/rss.xml" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/rss.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/sample.xml" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/sample.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/soap_request.xml" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/soap_request.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/soap_response.xml" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/Fixture/soap_response.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/tests/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/.editorconfig" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/LICENSE" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/appveyor.yml" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/appveyor.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Chronos.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Chronos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/ChronosInterface.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/ChronosInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/ChronosInterval.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/ChronosInterval.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Date.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/DifferenceFormatter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/DifferenceFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/MutableDate.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/MutableDate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/MutableDateTime.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/MutableDateTime.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/ComparisonTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/ComparisonTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/CopyTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/CopyTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/DifferenceTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/DifferenceTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/FactoryTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/FactoryTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/FormattingTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/FormattingTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/FrozenTimeTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/FrozenTimeTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/MagicPropertyTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/MagicPropertyTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/ModifierTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/ModifierTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/RelativeKeywordTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/RelativeKeywordTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/TestingAidTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/TestingAidTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/TimezoneTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Traits/TimezoneTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Translator.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/Translator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/chronos/src/carbon_compat.php" afterPath="$PROJECT_DIR$/vendor/cakephp/chronos/src/carbon_compat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/.jshintrc" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/README.md" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/VERSION.txt" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/VERSION.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/composer.json" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/config/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/config/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/config/routes.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/config/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Controller/Component/ToolbarComponent.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Controller/Component/ToolbarComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Controller/PanelsController.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Controller/PanelsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Controller/RequestsController.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Controller/RequestsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Controller/ToolbarController.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Controller/ToolbarController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Database/Log/DebugLog.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Database/Log/DebugLog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/DebugMemory.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/DebugMemory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/DebugPanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/DebugPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/DebugTimer.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/DebugTimer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/debug_kit.pot" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/debug_kit.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/eng/LC_MESSAGES/debug_kit.po" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/eng/LC_MESSAGES/debug_kit.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/fra/LC_MESSAGES/debug_kit.po" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/fra/LC_MESSAGES/debug_kit.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/lim/LC_MESSAGES/debug_kit.po" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/lim/LC_MESSAGES/debug_kit.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/nld/LC_MESSAGES/debug_kit.po" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/nld/LC_MESSAGES/debug_kit.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/pt_BR/LC_MESSAGES/debug_kit.po" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/pt_BR/LC_MESSAGES/debug_kit.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/spa/LC_MESSAGES/debug_kit.po" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Locale/spa/LC_MESSAGES/debug_kit.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Log/Engine/DebugKitLog.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Log/Engine/DebugKitLog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Model/Behavior/TimedBehavior.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Model/Behavior/TimedBehavior.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Model/Entity/Panel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Model/Entity/Panel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Model/Table/LazyTableTrait.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Model/Table/LazyTableTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Model/Table/PanelsTable.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Model/Table/PanelsTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/CachePanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/CachePanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/EnvironmentPanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/EnvironmentPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/HistoryPanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/HistoryPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/IncludePanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/IncludePanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/LogPanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/LogPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/PanelRegistry.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/PanelRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/RequestPanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/RequestPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/SessionPanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/SessionPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Shell/WhitespaceShell.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Shell/WhitespaceShell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/include_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/include_panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/session_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/session_panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/variables_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/variables_panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Layout/panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Layout/panel.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Layout/toolbar.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Layout/toolbar.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Panels/view.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Panels/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Requests/view.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Requests/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/View/AjaxView.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/View/AjaxView.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/View/Helper/SimpleGraphHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/View/Helper/SimpleGraphHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/View/Helper/TidyHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/View/Helper/TidyHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/View/Helper/ToolbarHelper.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/View/Helper/ToolbarHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/tests/Fixture/PanelsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/tests/Fixture/PanelsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/tests/Fixture/RequestsFixture.php" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/tests/Fixture/RequestsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/css/raleway-regular.svg" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/css/raleway-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/css/reset.css" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/css/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/css/toolbar.css" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/css/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/js/debug_kit.js" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/js/debug_kit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/js/jquery.js" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/js/toolbar-app.js" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/js/toolbar-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/js/toolbar.js" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/js/toolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <ignored path="Candeias.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,8 +707,8 @@
       <file leaf-file-name="AppController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Controller/AppController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="118" column="40" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -129,6 +749,7 @@
         <option value="$PROJECT_DIR$/src/Template/Galerias/index.ctp" />
         <option value="$PROJECT_DIR$/plugins/Admin/src/Controller/AppController.php" />
         <option value="$PROJECT_DIR$/plugins/Admin/src/Controller/LoginController.php" />
+        <option value="$PROJECT_DIR$/config/Migrations/20160825133931_AdicionandoDatasCategorias.php" />
       </list>
     </option>
   </component>
@@ -172,7 +793,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,7 +807,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Candeias" />
+              <option name="myItemId" value="ProjetoCandeias" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,61 +817,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Candeias" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Candeias" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Candeias" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Candeias" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Candeias" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Candeias" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Candeias" />
+              <option name="myItemId" value="ProjetoCandeias" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -269,19 +835,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Candeias" />
+              <option name="myItemId" value="ProjetoCandeias" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,29 +849,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Candeias" />
+              <option name="myItemId" value="ProjetoCandeias" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="Migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,9 +919,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -744,9 +1295,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="118" column="40" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/Migrations/20160825133931_AdicionandoDatasCategorias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46896553">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>

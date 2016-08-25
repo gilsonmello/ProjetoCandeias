@@ -45,6 +45,13 @@ class CursosTable extends Table {
         $this->table('cursos');
         $this->displayField('id');
         $this->primaryKey('id');
+        
+        $this->belongsToMany('Categorias', [
+            'foreignKey' => 'curso_id',
+            'targetForeignKey' => 'categoria_id',
+            'joinTable' => 'categorias_cursos',
+            'className' => 'Admin.Categorias'
+        ]);
 
 //        $this->belongsTo('Aulas', [
 //            'foreignKey' => 'aula_id',
