@@ -60,13 +60,11 @@ class CursosController extends AppController {
     public function add() {
         $curso = $this->Cursos->newEntity();
         if ($this->request->is('post')) {
-            die(var_dump($this->request->data));
             $curso = $this->Cursos->patchEntity($curso, $this->request->data, [
                 'associated' => [
                     'Categorias'
                 ]
             ]);
-            
             if ($this->Cursos->save($curso)) {
                 $this->Flash->success(__('The curso has been saved.'));
                 return $this->redirect(['action' => 'index']);

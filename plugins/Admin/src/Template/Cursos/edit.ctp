@@ -9,15 +9,16 @@
                     </a>
                 </li>
                 <li role="presentation">
-                    <a href="#area_curso_professores" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">
-                        Professores
-                    </a>
-                </li>
-                <li role="presentation">
                     <a href="#area_curso_disciplina" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">
                         Disciplina
                     </a>
                 </li>
+                <li role="presentation">
+                    <a href="#area_curso_professores" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">
+                        Professores
+                    </a>
+                </li>
+                
             </ul>
             <div id="myTabContent" class="tab-content">
                 <div class="tab-pane fade in active" id="area_curso" role="tabpanel" aria-labelledby="home-tab">
@@ -51,24 +52,8 @@
                         </div>
                     </form>
                 </div>
-
-                <div class="tab-pane fade in" id="area_curso_professores" role="tabpanel" aria-labelledby="home-tab">
-                    <form class="form-horizontal" method="post" action="">
-                        <div class="form-group">
-                            <label for="focusedinput" class="col-sm-2 control-label">Professor</label>
-                            <div class="col-sm-8">
-                                <input name="titulo" value="" class="form-control1" id="focusedinput" placeholder="Nome do Professor" type="text">
-                            </div>
-                        </div>
-                        <div class="form-group cad-professor">
-                            <div class="col-sm-8 col-sm-offset-2">
-                                <button class="btn-success btn">Cadastrar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
                 <div class="tab-pane fade" id="area_curso_disciplina" role="tabpanel" aria-labelledby="home-tab">
-                    <form class="form-horizontal" method="post" action="/ProjetoCandeias/admin/cursos/edit/<?php echo $curso->id?>">
+                    <form class="form-horizontal" method="post" action="">
                         <div class="form-group">
                             <label for="focusedinput" class="col-sm-2 control-label">Título do Curso</label>
                             <div class="col-sm-8">
@@ -93,14 +78,30 @@
 
                         <div class="form-group">
                             <div class="col-sm-8 col-sm-offset-2">
+                                <button class="btn-success btn cadastrar_disciplina">Cadastrar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade in" id="area_curso_professores" role="tabpanel" aria-labelledby="home-tab">
+                    <form class="form-horizontal" method="post" action="">
+                        <div class="form-group">
+                            <label for="focusedinput" class="col-sm-2 control-label">Professor</label>
+                            <div class="col-sm-8">
+                                <input name="titulo" value="" class="form-control1" id="focusedinput" placeholder="Nome do Professor" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group cad-professor">
+                            <div class="col-sm-8 col-sm-offset-2">
                                 <button class="btn-success btn">Cadastrar</button>
                             </div>
                         </div>
                     </form>
                 </div>
+                
             </div>
         </div>
     </div>
 </div>
 
-<script src="<?php echo BASE.'/'.strtolower($this->plugin);?>/js/usuarios/index.js"></script>
+<script src="<?php echo BASE.'/'.strtolower($this->plugin);?>/js/disciplinas/add.js"></script>
