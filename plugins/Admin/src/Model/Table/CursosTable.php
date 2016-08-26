@@ -52,6 +52,8 @@ class CursosTable extends Table {
             'joinTable' => 'categorias_cursos',
             'className' => 'Admin.Categorias'
         ]);
+        $this->hasMany('Disciplinas', [
+        ]);
 
 //        $this->belongsTo('Aulas', [
 //            'foreignKey' => 'aula_id',

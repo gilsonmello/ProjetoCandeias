@@ -5,7 +5,7 @@
  */
 $(document).ready(function () {
 
-    $('.cadastrar_disciplina').on('click', function (e) {
+    $('#disciplinas-add').submit(function (e) {
         e.preventDefault();
         e.stopPropagation();
         $.ajax({
@@ -13,7 +13,9 @@ $(document).ready(function () {
             url: BASE + "/disciplinas/add",
             dataType: "JSON",
             data: {
-                titulo: $('#disciplina_titulo').val()
+                titulo: $('#disciplina_titulo').val(),
+                slug: $('#disciplina_slug').val(),
+                curso_id: $('#curso_id').val()
             },
             success: function (retorno) {
                 console.log(retorno);

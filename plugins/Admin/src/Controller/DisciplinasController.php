@@ -18,7 +18,7 @@ class DisciplinasController extends AppController {
      */
     public function index() {
         $this->paginate = [
-            'contain' => ['Simulados']
+            'contain' => []
         ];
         $disciplinas = $this->paginate($this->Disciplinas);
 
@@ -55,13 +55,14 @@ class DisciplinasController extends AppController {
 //            die(var_dump($disciplina));
             if ($this->Disciplinas->save($disciplina)) {
                 $retorno['sucesso'] = 'ok';
+                $retorno['titulo']  =   $this->request->data['titulo'];
+                $retorno['curso_id']  =   $this->request->data['curso_id'];
+                $retorno['slug']  =   $this->request->data['slug'];
             } else {
                 $retorno['sucesso'] = 'ok';
             }
             die(json_encode($retorno));
         }
-        $this->set(compact('disciplina', 'simulados', 'cursos', 'professores'));
-        $this->set('_serialize', ['disciplina']);
     }
 
     /**

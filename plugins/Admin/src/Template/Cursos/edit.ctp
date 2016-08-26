@@ -55,29 +55,44 @@
 
                 <!-- Área de cadastro de disciplina-->
                 <div class="tab-pane fade" id="area_curso_disciplina" role="tabpanel" aria-labelledby="home-tab">
-                    <form class="form-horizontal" method="post" action="">
+                    <form id="disciplinas-add" class="form-horizontal" method="post" action="">
+                        <input id="curso_id" type="hidden" value="<?= $curso->id ?>">
+                        <div class="form-group">
+                            <table class="table" style="width: 400px !important">
+                                <thead>
+                                    <tr>
+                                        <th>Disciplina</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php foreach($curso->disciplinas as $disciplina):?>
+                                    <tr class="info">
+                                        <th scope="row">
+                                            <?= $disciplina->titulo ?>
+                                        </th>
+                                    </tr> 
+                                    <?php endforeach;?>
+                                </tbody>
+                            </table>
+                        </div>
                         <div class="form-group">
                             <label for="focusedinput" class="col-sm-2 control-label">Título do Curso</label>
                             <div class="col-sm-8">
-                                <input name="titulo" value="<?php echo $curso->titulo ?>" class="form-control1" id="disciplina_titulo" placeholder="Título do Curso" type="text">
+                                <input name="titulo" value="" class="form-control1" id="disciplina_titulo" placeholder="Título do Curso" type="text">
                             </div>
                             <!--<div class="col-sm-2 jlkdfj1">
                                 <p class="help-block">Your help text!</p>
                             </div>-->
                         </div>
                         <div class="form-group">
-                            <label for="focusedinput" class="col-sm-2 control-label">Descrição</label>
+                            <label for="focusedinput" class="col-sm-2 control-label">Slug</label>
                             <div class="col-sm-8">
-                                <input name="descricao" value="<?php echo $curso->descricao ?>" class="form-control1" id="disciplina_descricao" placeholder="Descrição" type="text">
+                                <input name="slug" value="" class="form-control1" id="disciplina_slug" placeholder="Título do Curso" type="text">
                             </div>
+                            <!--<div class="col-sm-2 jlkdfj1">
+                                <p class="help-block">Your help text!</p>
+                            </div>-->
                         </div>
-                        <div class="form-group">
-                            <label for="inputPassword" class="col-sm-2 control-label">Conteúdo</label>
-                            <div class="col-sm-8">
-                                <input name="conteudo" value="<?php echo $curso->conteudo ?>" class="form-control1" id="disciplina_conteudo" placeholder="Conteúdo" type="text">
-                            </div>
-                        </div>
-
                         <div class="form-group">
                             <div class="col-sm-8 col-sm-offset-2">
                                 <button class="btn-success btn cadastrar_disciplina">Cadastrar</button>

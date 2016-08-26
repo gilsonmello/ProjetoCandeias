@@ -88,7 +88,7 @@ class CursosController extends AppController {
      */
     public function edit($id = null) {
         $curso = $this->Cursos->get($id, [
-            'contain' => []
+            'contain' => ['Disciplinas']
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $curso = $this->Cursos->patchEntity($curso, $this->request->data);

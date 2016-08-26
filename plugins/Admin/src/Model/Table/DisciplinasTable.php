@@ -34,16 +34,12 @@ class DisciplinasTable extends Table {
      */
     public function initialize(array $config) {
         parent::initialize($config);
-
+        $this->addBehavior('Timestamp');
         $this->table('disciplinas');
         $this->displayField('id');
         $this->primaryKey('id');
 
-        $this->belongsToMany('Cursos', [
-            'foreignKey' => 'disciplina_id',
-            'targetForeignKey' => 'curso_id',
-            'joinTable' => 'cursos_disciplinas',
-            'className' => 'Admin.Cursos'
+        $this->belongsTo('Cursos', [
         ]);
     }
 
@@ -61,6 +57,10 @@ class DisciplinasTable extends Table {
         $validator
                 ->requirePresence('titulo', 'create')
                 ->notEmpty('titulo');
+        
+        $validator
+                ->requirePresence('slug', 'create')
+                ->notEmpty('slug');
 
         return $validator;
     }
