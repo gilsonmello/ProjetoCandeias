@@ -56,9 +56,9 @@ if (!empty($indexColumns)) {
         <thead>
             <tr>
 <?php foreach ($fields as $field): ?>
-                <th scope="col"><CakePHPBakeOpenTag= $this->Paginator->sort('<?= $field ?>') CakePHPBakeCloseTag></th>
+                <th><CakePHPBakeOpenTag= $this->Paginator->sort('<?= $field ?>') CakePHPBakeCloseTag></th>
 <?php endforeach; ?>
-                <th scope="col" class="actions"><CakePHPBakeOpenTag= __('Actions') CakePHPBakeCloseTag></th>
+                <th class="actions"><CakePHPBakeOpenTag= __('Actions') CakePHPBakeCloseTag></th>
             </tr>
         </thead>
         <tbody>

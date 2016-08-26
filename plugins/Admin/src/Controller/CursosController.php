@@ -66,10 +66,10 @@ class CursosController extends AppController {
                 ]
             ]);
             if ($this->Cursos->save($curso)) {
-                $this->Flash->success(__('The curso has been saved.'));
+                $this->Flash->success(__('Curso adicionado com sucesso.'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The curso could not be saved. Please, try again.'));
+                $this->Flash->error(__('O Curso não foi salvado, tente novamente.'));
             }
         }
 //        $matriculas = $this->Cursos->Matriculas->find('list', ['limit' => 200]);

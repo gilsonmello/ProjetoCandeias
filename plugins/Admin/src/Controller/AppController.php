@@ -28,6 +28,7 @@ class AppController extends BaseController {
         if (isset($this->usuarioLogado) && $this->usuarioLogado['regra'] != "Admin") {
             $this->redirect('/');
         }
+        $this->loadComponent('RequestHandler');
         //Carregando component Breadcrumb
         $this->loadComponent('Breadcrumb');
         //Carregando component Sidebarleft

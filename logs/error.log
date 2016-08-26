@@ -6980,3 +6980,1072 @@ Stack Trace:
 #4 {main}
 
 
+2016-08-26 00:02:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => 'Admin',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/admin/images/6.png
+Referer URL: http://localhost/ProjetoCandeias/admin/css/style.css
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-08-26 00:02:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-08-26 00:03:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/categorias
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-08-26 00:04:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-08-26 00:05:12 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:05:12 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:13:19 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:13:19 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:13:37 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:13:37 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:17:01 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:17:02 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:18:14 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:18:15 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:18:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin could not be found.
+Exception Attributes: array (
+  'class' => 'Admin',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/Admin/disciplinas/add
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-08-26 00:27:52 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:27:53 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:27:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin could not be found.
+Exception Attributes: array (
+  'class' => 'Admin',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/Admin/disciplinas/add
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-08-26 00:28:57 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:28:57 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:30:45 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:30:46 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:30:50 Warning: Headers already sent in C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-26 00:32:22 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:32:23 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:32:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-08-26 00:32:30 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:32:30 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:32:35 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:32:36 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:33:35 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:33:36 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:34:16 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:34:16 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:34:50 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:34:50 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:35:45 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:35:45 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:36:20 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:36:20 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:38:16 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:38:17 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:39:02 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:39:02 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:40:17 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:40:17 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:40:48 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:40:48 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:44:38 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:44:39 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:46:19 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:46:20 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:59:36 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 00:59:36 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 01:01:43 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 01:01:45 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 01:02:00 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 01:02:01 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 01:02:05 Error: [RuntimeException] ExistsIn rule for '' is invalid. '' is not associated with 'Admin\Model\Table\DisciplinasTable'.
+Request URL: /ProjetoCandeias/admin/disciplinas/add
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\RuleInvoker.php(115): Cake\ORM\Rule\ExistsIn->__invoke(Object(Admin\Model\Entity\Disciplina), Array)
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(298): Cake\Datasource\RuleInvoker->__invoke(Object(Admin\Model\Entity\Disciplina), Array)
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(255): Cake\Datasource\RulesChecker->_checkRules(Object(Admin\Model\Entity\Disciplina), Array, Array)
+#3 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(231): Cake\Datasource\RulesChecker->checkCreate(Object(Admin\Model\Entity\Disciplina), Array)
+#4 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(66): Cake\Datasource\RulesChecker->check(Object(Admin\Model\Entity\Disciplina), 'create', Array)
+#5 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1537): Cake\ORM\Table->checkRules(Object(Admin\Model\Entity\Disciplina), 'create', Object(ArrayObject))
+#6 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1492): Cake\ORM\Table->_processSave(Object(Admin\Model\Entity\Disciplina), Object(ArrayObject))
+#7 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(570): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#8 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1493): Cake\Database\Connection->transactional(Object(Closure))
+#9 C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Controller\DisciplinasController.php(56): Cake\ORM\Table->save(Object(Admin\Model\Entity\Disciplina))
+#10 [internal function]: Admin\Controller\DisciplinasController->add()
+#11 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#12 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#13 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\DisciplinasController))
+#14 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-08-26 01:02:24 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-26 01:02:24 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+

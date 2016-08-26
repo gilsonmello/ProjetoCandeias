@@ -18,15 +18,15 @@
                         Professores
                     </a>
                 </li>
-                
+
             </ul>
             <div id="myTabContent" class="tab-content">
                 <div class="tab-pane fade in active" id="area_curso" role="tabpanel" aria-labelledby="home-tab">
-                    <form class="form-horizontal" method="post" action="/ProjetoCandeias/admin/cursos/edit/<?php echo $curso->id?>">
+                    <form class="form-horizontal" method="post" action="/ProjetoCandeias/admin/cursos/edit/<?php echo $curso->id ?>">
                         <div class="form-group">
                             <label for="focusedinput" class="col-sm-2 control-label">Título do Curso</label>
                             <div class="col-sm-8">
-                                <input name="titulo" value="<?php echo $curso->titulo?>" class="form-control1" id="focusedinput" placeholder="Título do Curso" type="text">
+                                <input name="titulo" value="<?php echo $curso->titulo ?>" class="form-control1" id="focusedinput" placeholder="Título do Curso" type="text">
                             </div>
                             <!--<div class="col-sm-2 jlkdfj1">
                                 <p class="help-block">Your help text!</p>
@@ -35,13 +35,13 @@
                         <div class="form-group">
                             <label for="focusedinput" class="col-sm-2 control-label">Descrição</label>
                             <div class="col-sm-8">
-                                <input name="descricao" value="<?php echo $curso->descricao?>" class="form-control1" id="focusedinput" placeholder="Descrição" type="text">
+                                <input name="descricao" value="<?php echo $curso->descricao ?>" class="form-control1" id="focusedinput" placeholder="Descrição" type="text">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword" class="col-sm-2 control-label">Conteúdo</label>
                             <div class="col-sm-8">
-                                <input name="conteudo" value="<?php echo $curso->conteudo?>" class="form-control1" id="focusedinput" placeholder="Conteúdo" type="text">
+                                <input name="conteudo" value="<?php echo $curso->conteudo ?>" class="form-control1" id="focusedinput" placeholder="Conteúdo" type="text">
                             </div>
                         </div>
 
@@ -52,12 +52,14 @@
                         </div>
                     </form>
                 </div>
+
+                <!-- Área de cadastro de disciplina-->
                 <div class="tab-pane fade" id="area_curso_disciplina" role="tabpanel" aria-labelledby="home-tab">
                     <form class="form-horizontal" method="post" action="">
                         <div class="form-group">
                             <label for="focusedinput" class="col-sm-2 control-label">Título do Curso</label>
                             <div class="col-sm-8">
-                                <input name="titulo" value="<?php echo $curso->titulo?>" class="form-control1" id="focusedinput" placeholder="Título do Curso" type="text">
+                                <input name="titulo" value="<?php echo $curso->titulo ?>" class="form-control1" id="disciplina_titulo" placeholder="Título do Curso" type="text">
                             </div>
                             <!--<div class="col-sm-2 jlkdfj1">
                                 <p class="help-block">Your help text!</p>
@@ -66,13 +68,13 @@
                         <div class="form-group">
                             <label for="focusedinput" class="col-sm-2 control-label">Descrição</label>
                             <div class="col-sm-8">
-                                <input name="descricao" value="<?php echo $curso->descricao?>" class="form-control1" id="focusedinput" placeholder="Descrição" type="text">
+                                <input name="descricao" value="<?php echo $curso->descricao ?>" class="form-control1" id="disciplina_descricao" placeholder="Descrição" type="text">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword" class="col-sm-2 control-label">Conteúdo</label>
                             <div class="col-sm-8">
-                                <input name="conteudo" value="<?php echo $curso->conteudo?>" class="form-control1" id="focusedinput" placeholder="Conteúdo" type="text">
+                                <input name="conteudo" value="<?php echo $curso->conteudo ?>" class="form-control1" id="disciplina_conteudo" placeholder="Conteúdo" type="text">
                             </div>
                         </div>
 
@@ -83,6 +85,8 @@
                         </div>
                     </form>
                 </div>
+                <!-- Fim da área de cadastro de disciplina-->
+
                 <div class="tab-pane fade in" id="area_curso_professores" role="tabpanel" aria-labelledby="home-tab">
                     <form class="form-horizontal" method="post" action="">
                         <div class="form-group">
@@ -98,10 +102,10 @@
                         </div>
                     </form>
                 </div>
-                
+
             </div>
         </div>
     </div>
 </div>
 
-<script src="<?php echo BASE.'/'.strtolower($this->plugin);?>/js/disciplinas/add.js"></script>
+<script src="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/disciplinas/add.js"></script>
