@@ -1,27 +1,30 @@
 <div class="grid_3 grid_5">
     <h3>Gerenciamento do Curso</h3>
+    <br>
     <div class="but_list">
         <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
             <ul id="myTab" class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active">
+                <li role="presentation">
                     <a href="#area_curso" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">
                         Curso
                     </a>
                 </li>
-                <li role="presentation">
+                <li role="presentation" class="active">
                     <a href="#area_curso_disciplina" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">
                         Disciplina
                     </a>
                 </li>
-                <li role="presentation">
-                    <a href="#area_curso_professores" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">
-                        Professores
+
+                <li id="tab_aulas" role="presentation" style="display: none;">
+                    <a href="#area_curso_aulas" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" >
+                        Aulas
                     </a>
                 </li>
 
+
             </ul>
             <div id="myTabContent" class="tab-content">
-                <div class="tab-pane fade in active" id="area_curso" role="tabpanel" aria-labelledby="home-tab">
+                <div class="tab-pane fade in " id="area_curso" role="tabpanel" aria-labelledby="home-tab">
                     <form class="form-horizontal" method="post" action="/ProjetoCandeias/admin/cursos/edit/<?php echo $curso->id ?>">
                         <div class="form-group">
                             <label for="focusedinput" class="col-sm-2 control-label">Título do Curso</label>
@@ -54,27 +57,44 @@
                 </div>
 
                 <!-- Área de cadastro de disciplina-->
-                <div class="tab-pane fade" id="area_curso_disciplina" role="tabpanel" aria-labelledby="home-tab">
-                    <form id="disciplinas-add" class="form-horizontal" method="post" action="">
-                        <input id="curso_id" type="hidden" value="<?= $curso->id ?>">
-                        <div class="form-group">
-                            <table class="table" style="width: 400px !important">
+                <div class="tab-pane fade in active" id="area_curso_disciplina" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="xs tabls">
+                        <div class="bs-example4" data-example-id="contextual-table">
+                            <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>Disciplina</th>
+                                        <th>Nome</th>
+                                        <th>Aulas</th>
+                                        <th>Excluir</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php foreach($curso->disciplinas as $disciplina):?>
-                                    <tr class="info">
-                                        <th scope="row">
-                                            <?= $disciplina->titulo ?>
-                                        </th>
-                                    </tr> 
-                                    <?php endforeach;?>
+
+                                    <?php foreach ($curso->disciplinas as $disciplina): ?>
+                                        <tr>
+                                            <td><?= $disciplina->titulo ?></td>
+                                            <td><h4>
+                                                    <a href="#" data-target-id="<?= $disciplina->id ?>" name="edit-module-<?php $disciplina->id ?>">
+                                                        <span class="label label-primary">Ver aulas</span>
+                                                    </a>
+                                            </td></h4>
+
+                                            <td><h4>
+                                                    <a href="#" data-target-id="<?= $disciplina->id ?>" data-method="delete">
+                                                        <span class="label label-danger">Excluir</span>
+                                                    </a>
+                                                </h4>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+
                                 </tbody>
                             </table>
                         </div>
+                    </div>
+                    <br>
+                    <form id="disciplinas-add" class="form-horizontal" method="post" action="">
+                        <input id="curso_id" type="hidden" value="<?= $curso->id ?>">
                         <div class="form-group">
                             <label for="focusedinput" class="col-sm-2 control-label">Título do Curso</label>
                             <div class="col-sm-8">
@@ -102,12 +122,47 @@
                 </div>
                 <!-- Fim da área de cadastro de disciplina-->
 
-                <div class="tab-pane fade in" id="area_curso_professores" role="tabpanel" aria-labelledby="home-tab">
-                    <form class="form-horizontal" method="post" action="">
+                <!-- Área de cadastro de disciplina-->
+                <div class="tab-pane fade in" id="area_curso_aulas" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="xs tabls">
+                        <div class="bs-example4" data-example-id="contextual-table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Título</th>
+                                        <th>Ordem</th>
+                                        <th>Iframe</th>
+                                        <th>Excluir</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <br>
+                    <form id="aulas-add" class="form-horizontal" method="post" action="">
+                        <input type="hidden" id="disciplina_id" data-target-disciplina-id="">
                         <div class="form-group">
-                            <label for="focusedinput" class="col-sm-2 control-label">Professor</label>
+                            <label for="focusedinput" class="col-sm-2 control-label">Título</label>
                             <div class="col-sm-8">
-                                <input name="titulo" value="" class="form-control1" id="focusedinput" placeholder="Nome do Professor" type="text">
+                                <input name="titulo" value="" class="form-control1" id="disciplina_aulas_titulo" placeholder="Título" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="focusedinput" class="col-sm-2 control-label">Ordem</label>
+                            <div class="col-sm-8">
+                                <input name="ordem" value="" class="form-control1" id="disciplina_aulas_ordem" placeholder="Exemplo: 1 ou 2" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="focusedinput" class="col-sm-2 control-label">Aulas</label>
+                            <div class="col-sm-8">
+                                <input name="titulo" value="" class="form-control1" id="disciplina_aulas_iframe" placeholder="Iframe" type="text">
                             </div>
                         </div>
                         <div class="form-group cad-professor">
@@ -117,6 +172,8 @@
                         </div>
                     </form>
                 </div>
+
+                <!-- Fim da área de cadastro de disciplina-->
 
             </div>
         </div>

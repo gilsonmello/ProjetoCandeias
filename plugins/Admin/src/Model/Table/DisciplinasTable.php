@@ -41,6 +41,9 @@ class DisciplinasTable extends Table {
 
         $this->belongsTo('Cursos', [
         ]);
+
+        $this->hasMany('Aulas', [
+        ]);
     }
 
     /**
@@ -57,7 +60,7 @@ class DisciplinasTable extends Table {
         $validator
                 ->requirePresence('titulo', 'create')
                 ->notEmpty('titulo');
-        
+
         $validator
                 ->requirePresence('slug', 'create')
                 ->notEmpty('slug');

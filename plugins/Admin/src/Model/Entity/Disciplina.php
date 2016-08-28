@@ -1,4 +1,5 @@
 <?php
+
 namespace Admin\Model\Entity;
 
 use Cake\ORM\Entity;
@@ -19,8 +20,7 @@ use Cake\ORM\Entity;
  * @property \Admin\Model\Entity\Curso[] $cursos
  * @property \Admin\Model\Entity\Professore[] $professores
  */
-class Disciplina extends Entity
-{
+class Disciplina extends Entity {
 
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -35,4 +35,5 @@ class Disciplina extends Entity
         '*' => true,
         'id' => false
     ];
+
 }

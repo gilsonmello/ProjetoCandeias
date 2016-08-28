@@ -3,6 +3,7 @@
 namespace Admin\Controller;
 
 use Admin\Controller\AppController;
+use Cake\ORM\Query;
 
 /**
  * Disciplinas Controller
@@ -34,10 +35,24 @@ class DisciplinasController extends AppController {
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
     public function view($id = null) {
-        $disciplina = $this->Disciplinas->get($id, [
-            'contain' => ['Simulados', 'Cursos', 'Professores', 'Perguntas', 'Respostas']
-        ]);
+        $retorno = [];
 
+        $disciplina = $this->Disciplinas->get($id, [
+            'contain' => [
+                'Aulas' => [
+                    'queryBuilder' => function (Query $q) {
+                        return $q->order(['Aulas.ordem' => 'ASC']);
+                    }
+                ]
+            ]
+        ]);
+        if (!empty($disciplina) && isset($disciplina)) {
+            $retorno['disciplina'] = $disciplina;
+            $retorno['sucesso'] = 'ok';
+        } else {
+            $retorno['sucesso'] = 'no';
+        }
+        die(json_encode($retorno));
         $this->set('disciplina', $disciplina);
         $this->set('_serialize', ['disciplina']);
     }
@@ -53,11 +68,13 @@ class DisciplinasController extends AppController {
         if ($this->request->is('ajax')) {
             $disciplina = $this->Disciplinas->patchEntity($disciplina, $this->request->data);
 //            die(var_dump($disciplina));
+
             if ($this->Disciplinas->save($disciplina)) {
                 $retorno['sucesso'] = 'ok';
-                $retorno['titulo']  =   $this->request->data['titulo'];
-                $retorno['curso_id']  =   $this->request->data['curso_id'];
-                $retorno['slug']  =   $this->request->data['slug'];
+                $retorno['id'] = $disciplina->id;
+                $retorno['titulo'] = $this->request->data['titulo'];
+                $retorno['curso_id'] = $this->request->data['curso_id'];
+                $retorno['slug'] = $this->request->data['slug'];
             } else {
                 $retorno['sucesso'] = 'ok';
             }
