@@ -1206,3 +1206,131 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
 
 
 
+2016-08-28 18:10:06 Notice: Notice (8): Undefined variable: disciplina in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 6]
+Request URL: /ProjetoCandeias/admin/disciplinas/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 6
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 130
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 98
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-28 18:10:06 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 6]
+Request URL: /ProjetoCandeias/admin/disciplinas/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 6
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 130
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 98
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-28 18:10:06 Notice: Notice (8): Undefined variable: disciplina in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 7]
+Request URL: /ProjetoCandeias/admin/disciplinas/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 130
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 98
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-28 18:10:06 Notice: Notice (8): Trying to get property of non-object in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 7]
+Request URL: /ProjetoCandeias/admin/disciplinas/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 130
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 98
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-28 18:10:06 Notice: Notice (8): Undefined variable: disciplina in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 24]
+Request URL: /ProjetoCandeias/admin/disciplinas/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 130
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 98
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-28 18:10:06 Notice: Notice (8): Undefined variable: simulados in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 29]
+Request URL: /ProjetoCandeias/admin/disciplinas/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 130
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 98
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-28 18:10:06 Notice: Notice (8): Undefined variable: cursos in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 33]
+Request URL: /ProjetoCandeias/admin/disciplinas/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 33
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 130
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 98
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-28 18:10:06 Notice: Notice (8): Undefined variable: professores in [C:\wamp\www\ProjetoCandeias\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 34]
+Request URL: /ProjetoCandeias/admin/disciplinas/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\plugins\Admin\src\Template\Disciplinas\edit.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 130
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 98
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+

@@ -26,7 +26,7 @@ $(function () {
                     html += '</td>';
                     html += '<td>';
                     html += '<h4>';
-                    html += '<a href="#" value="' + retorno.titulo + '" data-target-id="' + retorno.id + '" name="edit-module-">';
+                    html += '<a href="#" value="' + retorno.titulo + '" data-target-id="' + retorno.id + '" data-method="edit-module">';
                     html += '<span class="label label-primary"> Ver aulas </span>';
                     html += '</a>';
                     html += '</h4>';
@@ -68,62 +68,94 @@ $(function () {
         //Adicionando a classe success a tr que o usuário clicou
         $(this).parent().parent().parent().addClass('success');
 
+        //Metódo utilizado no link
+        var metodo = $(this).attr('data-method');
+
         //Pegando o id da disciplina pela tag <a> através atributo data-target-id
         disciplina_id = $(this).attr('data-target-id');
-        //Fazendo requisão via ajax, método post
-        $.ajax({
-            method: "POST",
-            url: BASE + "/disciplinas/view/" + disciplina_id,
-            dataType: "JSON",
-            data: {
-                disciplina_id: disciplina_id,
-            },
-            success: function (retorno, textStatus, jqXHR) {
-                var html = '';
-                //Se o servidor retornar ok
-                if (retorno.sucesso == 'ok') {
-                    //Se houver alguma aula na disciplina
-                    if (retorno.disciplina.aulas.length > 0) {
 
-                        //Loop para imprimir todas as aulas da disciplina clicada
-                        for (var i = 0; i < retorno.disciplina.aulas.length; i++) {
-                            //Concatenando HTML para ser inserido na tabela #area_curso_aulas
-                            html += '<tr>';
-                            html += '<td>' + retorno.disciplina.aulas[i].titulo + '</td>';
-                            html += '<td><h4>';
-                            html += '<span class="label label-default">' + retorno.disciplina.aulas[i].ordem + '</span>';
-                            html += '<h4>';
-                            html += '</td>';
-                            html += '<td><h4>';
-                            html += '<span class="label label-default">' + retorno.disciplina.aulas[i].iframe + '</span>';
-                            html += '</h4>';
-                            html += '</td>';
-                            html += '<td><h4>';
-                            html += '<a href="#" value="' + retorno.disciplina.aulas[i].titulo + '" data-target-id="' + retorno.disciplina.aulas[i].id + '" name="edit-module-' + retorno.disciplina.aulas[i].id + '" data-method="delete">';
-                            html += '<span class="label label-danger">Excluir</span>';
-                            html += '</a>';
-                            html += '</h4>';
-                            html += '</td>';
-                            html += '</tr>';
-                            //Fim concatenação
+        if (metodo == 'edit-module') {
+            //Fazendo requisão via ajax, método post
+            $.ajax({
+                method: "POST",
+                url: BASE + "/disciplinas/view/" + disciplina_id,
+                dataType: "JSON",
+                data: {
+                    disciplina_id: disciplina_id,
+                },
+                success: function (retorno, textStatus, jqXHR) {
+                    var html = '';
+                    //Se o servidor retornar ok
+                    if (retorno.sucesso == 'ok') {
+                        //Se houver alguma aula na disciplina
+                        if (retorno.disciplina.aulas.length > 0) {
+
+                            //Loop para imprimir todas as aulas da disciplina clicada
+                            for (var i = 0; i < retorno.disciplina.aulas.length; i++) {
+                                //Concatenando HTML para ser inserido na tabela #area_curso_aulas
+                                html += '<tr>';
+                                html += '<td>' + retorno.disciplina.aulas[i].titulo + '</td>';
+                                html += '<td><h4>';
+                                html += '<span class="label label-default">' + retorno.disciplina.aulas[i].ordem + '</span>';
+                                html += '<h4>';
+                                html += '</td>';
+                                html += '<td><h4>';
+                                html += '<span class="label label-default">' + retorno.disciplina.aulas[i].iframe + '</span>';
+                                html += '</h4>';
+                                html += '</td>';
+                                html += '<td><h4>';
+                                html += '<a href="#" value="' + retorno.disciplina.aulas[i].titulo + '" data-target-id="' + retorno.disciplina.aulas[i].id + '" name="edit-module-' + retorno.disciplina.aulas[i].id + '" data-method="delete">';
+                                html += '<span class="label label-danger">Excluir</span>';
+                                html += '</a>';
+                                html += '</h4>';
+                                html += '</td>';
+                                html += '</tr>';
+                                //Fim concatenação
+                            }
+                            //Fim do loop
                         }
-                        //Fim do loop
+
+                        //Adicionando html a tabela na #area_curso_aulas
+                        $('#area_curso_aulas table tbody').html(html);
+
+                        //Atribuindo ao input hidden o valor da disciplina clicada no atributo data-target-disciplina-id
+                        $('#disciplina_id').attr('data-target-disciplina-id', disciplina_id);
+
+                        //Alterando o css da #tab_aulas para block a tab de aulas
+                        $('ul #tab_aulas').css({
+                            display: 'block'
+                        });
+
                     }
-
-                    //Adicionando html a tabela na #area_curso_aulas
-                    $('#area_curso_aulas table tbody').html(html);
-
-                    //Atribuindo ao input hidden o valor da disciplina clicada no atributo data-target-disciplina-id
-                    $('#disciplina_id').attr('data-target-disciplina-id', disciplina_id);
-
-                    //Alterando o css da #tab_aulas para block a tab de aulas
-                    $('ul #tab_aulas').css({
-                        display: 'block'
-                    });
-
                 }
+            });
+        }
+    });
+
+    $(document).on('click', '#area_curso_disciplina table tbody a', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var elemento = $(this);
+        var metodo = elemento.attr('data-method');
+        var id = elemento.attr('data-target-id');
+        if (metodo == 'delete') {
+            var confirmacao = confirm("Deseja deletar a Disciplina: " + elemento.attr('value') + " ?");
+            if (confirmacao) {
+                $.ajax({
+                    method: "POST",
+                    url: BASE + "/disciplinas/delete/" + id,
+                    dataType: "JSON",
+                    data: {
+                        id: id
+                    },
+                    success: function (data, textStatus, jqXHR) {
+
+                    }
+                });
             }
-        });
+        }
+
+
     });
     $('#aulas-add').submit(function (e) {
         var formulario = $(this);

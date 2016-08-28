@@ -90,10 +90,11 @@ class DisciplinasController extends AppController {
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function edit($id = null) {
+        $retorno = [];
         $disciplina = $this->Disciplinas->get($id, [
-            'contain' => ['Cursos', 'Professores']
+            'contain' => ['Cursos']
         ]);
-        if ($this->request->is(['patch', 'post', 'put'])) {
+        if ($this->request->is(['patch', 'post', 'put', 'ajax'])) {
             $disciplina = $this->Disciplinas->patchEntity($disciplina, $this->request->data);
             if ($this->Disciplinas->save($disciplina)) {
                 $this->Flash->success(__('The disciplina has been saved.'));
@@ -103,11 +104,6 @@ class DisciplinasController extends AppController {
                 $this->Flash->error(__('The disciplina could not be saved. Please, try again.'));
             }
         }
-        $simulados = $this->Disciplinas->Simulados->find('list', ['limit' => 200]);
-        $cursos = $this->Disciplinas->Cursos->find('list', ['limit' => 200]);
-        $professores = $this->Disciplinas->Professores->find('list', ['limit' => 200]);
-        $this->set(compact('disciplina', 'simulados', 'cursos', 'professores'));
-        $this->set('_serialize', ['disciplina']);
     }
 
     /**
@@ -118,15 +114,19 @@ class DisciplinasController extends AppController {
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
     public function delete($id = null) {
-        $this->request->allowMethod(['post', 'delete']);
-        $disciplina = $this->Disciplinas->get($id);
+        $retorno = [];
+        $this->request->allowMethod(['post', 'delete', 'ajax']);
+        $disciplina = $this->Disciplinas->get($id, [
+            'contain' => [
+                'Aulas'
+            ]
+        ]);
         if ($this->Disciplinas->delete($disciplina)) {
-            $this->Flash->success(__('The disciplina has been deleted.'));
+            $retorno['sucesso'] = 'ok';
         } else {
-            $this->Flash->error(__('The disciplina could not be deleted. Please, try again.'));
+            $retorno['sucesso'] = 'no';
         }
-
-        return $this->redirect(['action' => 'index']);
+        die(json_encode($retorno));
     }
 
 }

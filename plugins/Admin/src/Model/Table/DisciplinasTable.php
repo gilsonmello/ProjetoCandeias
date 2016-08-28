@@ -6,6 +6,8 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
+use Cake\Event\Event;
+use ArrayObject;
 
 /**
  * Disciplinas Model
@@ -43,7 +45,17 @@ class DisciplinasTable extends Table {
         ]);
 
         $this->hasMany('Aulas', [
+            'dependent' => true,
+            'cascadeCallbacks' => true,
         ]);
+    }
+
+    public function beforeFind(Event $event, Query $data, ArrayObject $options, $primary) {
+        $data->where(['Disciplinas.status' => 1, 'Disciplinas.excluido' => 0]);
+    }
+
+    public function beforeDelete() {
+
     }
 
     /**

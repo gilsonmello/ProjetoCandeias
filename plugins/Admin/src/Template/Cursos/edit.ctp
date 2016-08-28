@@ -74,13 +74,13 @@
                                         <tr>
                                             <td><?= $disciplina->titulo ?></td>
                                             <td><h4>
-                                                    <a href="#" data-target-id="<?= $disciplina->id ?>" name="edit-module-<?php $disciplina->id ?>">
+                                                    <a href="#" data-target-id="<?= $disciplina->id ?>" data-method="edit-module">
                                                         <span class="label label-primary">Ver aulas</span>
                                                     </a>
                                             </td></h4>
 
                                             <td><h4>
-                                                    <a href="#" data-target-id="<?= $disciplina->id ?>" data-method="delete">
+                                                    <a href="#" value="<?= $disciplina->titulo ?>" data-target-id="<?= $disciplina->id ?>" data-method="delete">
                                                         <span class="label label-danger">Excluir</span>
                                                     </a>
                                                 </h4>
