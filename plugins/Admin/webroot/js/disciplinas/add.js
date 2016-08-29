@@ -4,11 +4,13 @@
  * and open the template in the editor.
  */
 $(function () {
-
+    
+    //Função para adicionar disciplinas ao curso selecionado
     $('#disciplinas-add').submit(function (e) {
-        var formulario = $(this);
         e.preventDefault();
         e.stopPropagation();
+        
+        //Fazendo requisão via ajax, método post
         $.ajax({
             method: "POST",
             url: BASE + "/disciplinas/add",
@@ -19,6 +21,7 @@ $(function () {
                 curso_id: $('#curso_id').val()
             },
             success: function (retorno) {
+                //Se o servidor retornar ok
                 if (retorno.sucesso == 'ok') {
                     var html = '';
                     html += '<tr>';
@@ -53,6 +56,8 @@ $(function () {
     });
     //Variável que irá conter o id de cada disciplina clicada
     var disciplina_id;
+    
+    //Função para visualizar todas as aulas cadastradas na disciplina selecionada
     $(document).on('click', '#area_curso_disciplina table tbody a ', function (e) {
         e.preventDefault();
         e.stopPropagation();
@@ -131,7 +136,8 @@ $(function () {
             });
         }
     });
-
+    
+    //Função para deletar disciplinas
     $(document).on('click', '#area_curso_disciplina table tbody a', function (e) {
         e.preventDefault();
         e.stopPropagation();
@@ -148,15 +154,20 @@ $(function () {
                     data: {
                         id: id
                     },
-                    success: function (data, textStatus, jqXHR) {
-
+                    success: function (retorno, textStatus, jqXHR) {
+                        if(retorno.sucesso = "ok"){
+                            if($('#tab_aulas').attr('style') == 'display: block;'){
+                                $('#tab_aulas').attr('style', 'display: none;');
+                            }
+                            $(elemento).parent().parent().parent().fadeOut('slow');
+                        }
                     }
                 });
             }
         }
-
-
     });
+    
+    //Função para adicionar aulas a disciplina selecionada
     $('#aulas-add').submit(function (e) {
         var formulario = $(this);
         e.preventDefault();
@@ -191,7 +202,8 @@ $(function () {
             }
         });
     });
-
+    
+    //Função para deletar aula da disciplina selecionada
     $(document).on('click', '#area_curso_aulas table a', function (e) {
         e.preventDefault();
         e.stopPropagation();
