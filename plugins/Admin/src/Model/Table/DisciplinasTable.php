@@ -7,6 +7,7 @@ use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
 use Cake\Event\Event;
+use Cake\ORM\Entity;
 use ArrayObject;
 
 /**
@@ -37,6 +38,12 @@ class DisciplinasTable extends Table {
     public function initialize(array $config) {
         parent::initialize($config);
         $this->addBehavior('Timestamp');
+        $this->addBehavior('Admin.Acoes', [
+            'implementedMethods' => [
+                'beforeDelete' => 'beforeDelete',
+            ]
+        ]);
+        
         $this->table('disciplinas');
         $this->displayField('id');
         $this->primaryKey('id');
@@ -53,10 +60,7 @@ class DisciplinasTable extends Table {
     public function beforeFind(Event $event, Query $data, ArrayObject $options, $primary) {
         $data->where(['Disciplinas.status' => 1, 'Disciplinas.excluido' => 0]);
     }
-
-    public function beforeDelete() {
-
-    }
+    
 
     /**
      * Default validation rules.

@@ -76,7 +76,7 @@ class DisciplinasController extends AppController {
                 $retorno['curso_id'] = $this->request->data['curso_id'];
                 $retorno['slug'] = $this->request->data['slug'];
             } else {
-                $retorno['sucesso'] = 'ok';
+                $retorno['sucesso'] = 'no';
             }
             die(json_encode($retorno));
         }
