@@ -46,7 +46,8 @@ class AulasTable extends Table {
         $this->belongsTo('Disciplinas', [
             'foreignKey' => 'disciplina_id',
             'joinType' => 'INNER',
-            'className' => 'Admin.Disciplinas'
+            'className' => 'Admin.Disciplinas',
+            'dependent' => true
         ]);
 
 //        $this->hasMany('Iteracoes', [
