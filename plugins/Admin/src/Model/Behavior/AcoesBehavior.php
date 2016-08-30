@@ -26,10 +26,8 @@ class AcoesBehavior extends Behavior
     ];
     
     public function beforeDelete(Event $event, Entity $entity, ArrayObject $options){
-        
-        var_dump($event);
-        die();
-        $query->update()->set(['excluido' => 1])->where(['id' => $entity->id]);
+    
+//            ->set(['excluido' => 1])->where(['id' => $entity->id]);
         
     }
 }

@@ -38,12 +38,13 @@ class DisciplinasTable extends Table {
     public function initialize(array $config) {
         parent::initialize($config);
         $this->addBehavior('Timestamp');
+        
         $this->addBehavior('Admin.Acoes', [
             'implementedMethods' => [
                 'beforeDelete' => 'beforeDelete',
             ]
         ]);
-        
+
         $this->table('disciplinas');
         $this->displayField('id');
         $this->primaryKey('id');
@@ -60,7 +61,6 @@ class DisciplinasTable extends Table {
     public function beforeFind(Event $event, Query $data, ArrayObject $options, $primary) {
         $data->where(['Disciplinas.status' => 1, 'Disciplinas.excluido' => 0]);
     }
-    
 
     /**
      * Default validation rules.
