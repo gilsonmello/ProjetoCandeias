@@ -20,8 +20,6 @@
                         Aulas
                     </a>
                 </li>
-
-
             </ul>
             <div id="myTabContent" class="tab-content">
                 <div class="tab-pane fade in " id="area_curso" role="tabpanel" aria-labelledby="home-tab">

@@ -39,6 +39,12 @@ class DisciplinasTable extends Table {
     public function initialize(array $config) {
         parent::initialize($config);
         $this->addBehavior('Timestamp');
+        
+        $this->addBehavior('Admin.Acoes', [
+            'implementedMethods' => [
+                'beforeDelete' => 'beforeDelete',
+            ]
+        ]);
 
         $this->table('disciplinas');
         $this->displayField('id');
@@ -49,7 +55,12 @@ class DisciplinasTable extends Table {
 
         $this->hasMany('Aulas', [
             'dependent' => true,
+<<<<<<< HEAD
             'cascadeCallbacks' => true
+=======
+            'cascadeCallbacks' => true,
+            'conditions' => ['Aulas.excluido' => 0, 'Aulas.status' => 1 ]
+>>>>>>> fd6bbd507cc9fa42bf97b1cddd7ef469b82817a7
         ]);
     }
 

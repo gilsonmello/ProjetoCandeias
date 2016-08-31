@@ -49,7 +49,12 @@ class AulasTable extends Table {
             'joinType' => 'INNER',
             'className' => 'Admin.Disciplinas',
             'dependent' => true,
+<<<<<<< HEAD
             'cascadeCallbacks' => true
+=======
+            'cascadeCallbacks' => true,
+            'conditions' => ['Disciplinas.excluido' => 0, 'Disciplinas.status' => 1 ]
+>>>>>>> fd6bbd507cc9fa42bf97b1cddd7ef469b82817a7
         ]);
 
 //        $this->hasMany('Iteracoes', [

@@ -1,5 +1,4 @@
 <?php
-
 namespace Admin\Model\Behavior;
 
 use Cake\ORM\Behavior;
@@ -12,7 +11,8 @@ use ArrayObject;
 /**
  * Acoes behavior
  */
-class AcoesBehavior extends Behavior {
+class AcoesBehavior extends Behavior
+{
 
     /**
      * Default configuration.
@@ -24,5 +24,10 @@ class AcoesBehavior extends Behavior {
             'beforeDelete' => 'beforeDelete',
         ]
     ];
-
+    
+    public function beforeDelete(Event $event, Entity $entity, ArrayObject $options){
+    
+//            ->set(['excluido' => 1])->where(['id' => $entity->id]);
+        
+    }
 }

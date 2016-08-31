@@ -92,8 +92,9 @@ class DisciplinasController extends AppController {
             public function edit($id = null) {
                 $retorno = [];
                 $disciplina = $this->Disciplinas->get($id, [
-                    'contain' => ['Cursos']
+                    'contain' => ['Aulas']
                 ]);
+                
                 if ($this->request->is(['patch', 'post', 'put', 'ajax'])) {
                     $disciplina = $this->Disciplinas->patchEntity($disciplina, $this->request->data);
                     if ($this->Disciplinas->save($disciplina)) {
@@ -114,14 +115,11 @@ class DisciplinasController extends AppController {
              * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
              */
             public function delete($id = null) {
-
                 $retorno = [];
-                $this->request->allowMethod(['post', 'delete', 'ajax']);
                 $disciplina = $this->Disciplinas->get($id, [
-                    'contain' => [
-                        'Aulas'
-                    ]
+                    'contain' => ['Aulas']
                 ]);
+<<<<<<< HEAD
                 $this->request->data['id'] = $disciplina->id;
                 $this->request->data['titulo'] = $disciplina->titulo;
                 $this->request->data['curso_id'] = $disciplina->curso_id;
@@ -152,6 +150,19 @@ class DisciplinasController extends AppController {
                     $retorno['sucesso'] = 'ok';
                 } else {
                     $retorno['sucesso'] = 'no';
+=======
+                
+                $disciplina->excluido = true;
+                $disciplina->deleted_at = date('Y-m-d H:i:s');
+                
+                if ($this->request->is(['patch', 'post', 'put', 'ajax'])) {
+                    $disciplina = $this->Disciplinas->patchEntity($disciplina, $this->request->data);
+                    if ($this->Disciplinas->save($disciplina)) {
+                        $retorno['sucesso'] = 'ok';
+                    } else {
+                        $retorno['sucesso'] = 'no';
+                    }
+>>>>>>> fd6bbd507cc9fa42bf97b1cddd7ef469b82817a7
                 }
                 die(json_encode($retorno));
             }
