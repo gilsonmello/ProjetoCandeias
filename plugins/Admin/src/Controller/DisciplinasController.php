@@ -122,10 +122,7 @@ class DisciplinasController extends AppController {
                 
                 $disciplina->excluido = true;
                 $disciplina->deleted_at = date('Y-m-d H:i:s');
-                foreach($disciplina->aulas as $aula){
-                    $aula->excluido = true;
-                    $aula->deleted_at = date('Y-m-d H:i:s');
-                }
+                
                 if ($this->request->is(['patch', 'post', 'put', 'ajax'])) {
                     $disciplina = $this->Disciplinas->patchEntity($disciplina, $this->request->data);
                     if ($this->Disciplinas->save($disciplina)) {

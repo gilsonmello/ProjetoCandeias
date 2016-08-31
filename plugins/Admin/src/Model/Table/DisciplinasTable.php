@@ -55,11 +55,8 @@ class DisciplinasTable extends Table {
         $this->hasMany('Aulas', [
             'dependent' => true,
             'cascadeCallbacks' => true,
+            'conditions' => ['Aulas.excluido' => 0, 'Aulas.status' => 1 ]
         ]);
-    }
-
-    public function beforeFind(Event $event, Query $data, ArrayObject $options, $primary) {
-        $data->where(['Disciplinas.status' => 1, 'Disciplinas.excluido' => 0]);
     }
 
     /**

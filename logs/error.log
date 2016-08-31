@@ -21001,3 +21001,243 @@ Stack Trace:
 #4 {main}
 
 
+2016-08-31 14:01:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => 'Admin',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/admin/images/6.png
+Referer URL: http://localhost/ProjetoCandeias/admin/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-08-31 14:01:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-08-31 14:01:42 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-31 14:01:43 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-31 14:02:00 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-31 14:02:00 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-31 14:02:13 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'titulo' doesn't have a default value
+Request URL: /ProjetoCandeias/admin/disciplinas/delete/14
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1669): Cake\Database\Query->execute()
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1563): Cake\ORM\Table->_insert(Object(Cake\ORM\Entity), Array)
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1492): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(570): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1493): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Association\HasMany.php(176): Cake\ORM\Table->save(Object(Cake\ORM\Entity), Array)
+#11 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(260): Cake\ORM\Association\HasMany->saveAssociated(Object(Admin\Model\Entity\Disciplina), Array)
+#12 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(234): Cake\ORM\AssociationCollection->_save(Object(Cake\ORM\Association\HasMany), Object(Admin\Model\Entity\Disciplina), Array, Array)
+#13 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\AssociationCollection.php(199): Cake\ORM\AssociationCollection->_saveAssociations(Object(Admin\Model\Table\DisciplinasTable), Object(Admin\Model\Entity\Disciplina), Array, Array, true)
+#14 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1597): Cake\ORM\AssociationCollection->saveChildren(Object(Admin\Model\Table\DisciplinasTable), Object(Admin\Model\Entity\Disciplina), Array, Array)
+#15 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1569): Cake\ORM\Table->_onSaveSuccess(Object(Admin\Model\Entity\Disciplina), Object(ArrayObject))
+#16 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1492): Cake\ORM\Table->_processSave(Object(Admin\Model\Entity\Disciplina), Object(ArrayObject))
+#17 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Database\Connection.php(570): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#18 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1493): Cake\Database\Connection->transactional(Object(Closure))
+#19 C:\wamp64\www\ProjetoCandeias\plugins\Admin\src\Controller\DisciplinasController.php(133): Cake\ORM\Table->save(Object(Admin\Model\Entity\Disciplina))
+#20 [internal function]: Admin\Controller\DisciplinasController->delete('14')
+#21 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#22 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#23 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\DisciplinasController))
+#24 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#25 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#26 {main}
+
+
+2016-08-31 14:05:55 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "disciplinas"
+Request URL: /ProjetoCandeias/admin/disciplinas/delete/14
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1225): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\ProjetoCandeias\plugins\Admin\src\Controller\DisciplinasController.php(122): Cake\ORM\Table->get('14', Array)
+#2 [internal function]: Admin\Controller\DisciplinasController->delete('14')
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\DisciplinasController))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-08-31 14:17:57 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "disciplinas"
+Request URL: /ProjetoCandeias/admin/disciplinas/view/14
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1225): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\ProjetoCandeias\plugins\Admin\src\Controller\DisciplinasController.php(48): Cake\ORM\Table->get('14', Array)
+#2 [internal function]: Admin\Controller\DisciplinasController->view('14')
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\DisciplinasController))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-08-31 14:19:19 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-31 14:19:19 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-08-31 14:19:27 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "disciplinas"
+Request URL: /ProjetoCandeias/admin/disciplinas/delete/14
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1225): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\ProjetoCandeias\plugins\Admin\src\Controller\DisciplinasController.php(122): Cake\ORM\Table->get('14', Array)
+#2 [internal function]: Admin\Controller\DisciplinasController->delete('14')
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\DisciplinasController))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-08-31 14:20:02 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "disciplinas"
+Request URL: /ProjetoCandeias/admin/disciplinas/view/14
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\ORM\Table.php(1225): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\ProjetoCandeias\plugins\Admin\src\Controller\DisciplinasController.php(48): Cake\ORM\Table->get('14', Array)
+#2 [internal function]: Admin\Controller\DisciplinasController->view('14')
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\DisciplinasController))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+

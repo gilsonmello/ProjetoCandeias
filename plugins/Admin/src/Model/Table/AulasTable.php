@@ -47,7 +47,9 @@ class AulasTable extends Table {
             'foreignKey' => 'disciplina_id',
             'joinType' => 'INNER',
             'className' => 'Admin.Disciplinas',
-            'dependent' => true
+            'dependent' => true,
+            'cascadeCallbacks' => true,
+            'conditions' => ['Disciplinas.excluido' => 0, 'Disciplinas.status' => 1 ]
         ]);
 
 //        $this->hasMany('Iteracoes', [
