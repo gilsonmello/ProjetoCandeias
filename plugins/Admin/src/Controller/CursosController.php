@@ -4,6 +4,7 @@ namespace Admin\Controller;
 
 use Admin\Controller\AppController;
 use Cake\Event\Event;
+use Cake\ORM\Query;
 
 /**
  * Cursos Controller
@@ -88,39 +89,45 @@ class CursosController extends AppController {
      */
     public function edit($id = null) {
         $curso = $this->Cursos->get($id, [
-            'contain' => ['Disciplinas']
-        ]);
-        if ($this->request->is(['patch', 'post', 'put'])) {
-            $curso = $this->Cursos->patchEntity($curso, $this->request->data);
-            if ($this->Cursos->save($curso)) {
-                $this->Flash->success(__('The curso has been saved.'));
+            'contain' => [
+                'Disciplinas' => [
+                    'queryBuilder' => function (Query $q) {
+                        return $q->where(['Disciplinas.status' => 1, 'Disciplinas.excluido' => 0]);
+                    }
+                        ]
+                    ]
+                ]);
+                if ($this->request->is(['patch', 'post', 'put'])) {
+                    $curso = $this->Cursos->patchEntity($curso, $this->request->data);
+                    if ($this->Cursos->save($curso)) {
+                        $this->Flash->success(__('The curso has been saved.'));
+
+                        return $this->redirect(['action' => 'index']);
+                    } else {
+                        $this->Flash->error(__('The curso could not be saved. Please, try again.'));
+                    }
+                }
+                $this->set(compact('curso'));
+                $this->set('_serialize', ['curso']);
+            }
+
+            /**
+             * Delete method
+             *
+             * @param string|null $id Curso id.
+             * @return \Cake\Network\Response|null Redirects to index.
+             * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
+             */
+            public function delete($id = null) {
+                $this->request->allowMethod(['post', 'delete']);
+                $curso = $this->Cursos->get($id);
+                if ($this->Cursos->delete($curso)) {
+                    $this->Flash->success(__('The curso has been deleted.'));
+                } else {
+                    $this->Flash->error(__('The curso could not be deleted. Please, try again.'));
+                }
 
                 return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error(__('The curso could not be saved. Please, try again.'));
             }
+
         }
-        $this->set(compact('curso'));
-        $this->set('_serialize', ['curso']);
-    }
-
-    /**
-     * Delete method
-     *
-     * @param string|null $id Curso id.
-     * @return \Cake\Network\Response|null Redirects to index.
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
-    public function delete($id = null) {
-        $this->request->allowMethod(['post', 'delete']);
-        $curso = $this->Cursos->get($id);
-        if ($this->Cursos->delete($curso)) {
-            $this->Flash->success(__('The curso has been deleted.'));
-        } else {
-            $this->Flash->error(__('The curso could not be deleted. Please, try again.'));
-        }
-
-        return $this->redirect(['action' => 'index']);
-    }
-
-}

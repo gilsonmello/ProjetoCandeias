@@ -122,19 +122,32 @@ class DisciplinasController extends AppController {
                         'Aulas'
                     ]
                 ]);
-                $disciplina->excluido = true;
-                $disciplina->deleted_at = date('Y-m-d H:i:s');
+                $this->request->data['id'] = $disciplina->id;
+                $this->request->data['titulo'] = $disciplina->titulo;
+                $this->request->data['curso_id'] = $disciplina->curso_id;
+                $this->request->data['excluido'] = 1;
+                $this->request->data['slug'] = $disciplina->slug;
+                $this->request->data['status'] = 0;
+                $this->request->data['deleted_at'] = date('Y-m-d H:i:s');
                 foreach ($disciplina->aulas as $aulas) {
-                    $aulas->excluido = 1;
-                    $aulas->deleted_at = date('Y-m-d H:i:s');
+                    $this->request->data['aulas'][] = [
+                        'id' => $aulas->id,
+                        'titulo' => $aulas->titulo,
+                        'ordem' => $aulas->ordem,
+                        'iframe' => $aulas->iframe,
+                        'disciplina_id' => $aulas->disciplina_id,
+                        'status' => 0,
+                        'excluido' => 1,
+                        'deleted_at' => date('Y-m-d H:i:s')
+                    ];
                 }
-
-                $this->Disciplinas->patchEntity($disciplina, [
-                    'associated' => ['Aulas']
-                ]);
-
-
-
+                $disciplina = $this->Disciplinas->patchEntity(
+                        $disciplina, $this->request->data, [
+                    'associated' => [
+                        'Aulas'
+                    ]
+                        ]
+                );
                 if ($this->Disciplinas->save($disciplina)) {
                     $retorno['sucesso'] = 'ok';
                 } else {

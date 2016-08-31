@@ -9,6 +9,7 @@ use Cake\Validation\Validator;
 use Cake\Event\Event;
 use Cake\ORM\Entity;
 use ArrayObject;
+use \Cake\Datasource\EntityInterface;
 
 /**
  * Disciplinas Model
@@ -48,12 +49,8 @@ class DisciplinasTable extends Table {
 
         $this->hasMany('Aulas', [
             'dependent' => true,
-            'cascadeCallbacks' => true,
+            'cascadeCallbacks' => true
         ]);
-    }
-
-    public function beforeFind(Event $event, Query $data, ArrayObject $options, $primary) {
-        $data->where(['Disciplinas.status' => 1, 'Disciplinas.excluido' => 0]);
     }
 
     /**

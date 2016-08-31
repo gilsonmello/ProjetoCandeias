@@ -6,6 +6,7 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
+use \Cake\Datasource\EntityInterface;
 
 /**
  * Aulas Model
@@ -47,7 +48,8 @@ class AulasTable extends Table {
             'foreignKey' => 'disciplina_id',
             'joinType' => 'INNER',
             'className' => 'Admin.Disciplinas',
-            'dependent' => true
+            'dependent' => true,
+            'cascadeCallbacks' => true
         ]);
 
 //        $this->hasMany('Iteracoes', [
@@ -70,6 +72,15 @@ class AulasTable extends Table {
 //            'joinTable' => 'cursos_aulas',
 //            'className' => 'Admin.Cursos'
 //        ]);
+    }
+
+    public function beforeFind(Event $event, Query $data, ArrayObject $options, $primary) {
+        $data->where(['Aulas.status' => 1, 'Aulas.excluido' => 0]);
+    }
+
+    public function beforeDelete(Event $event, EntityInterface $entity, ArrayObject $options, $primary) {
+        $entity->excluido = 1;
+        $entity->deleted_at = date('Y-m-d H:i:s');
     }
 
     /**
