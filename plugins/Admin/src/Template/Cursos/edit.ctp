@@ -1,3 +1,6 @@
+<div class="popup" style="position: absolute; z-index: 1000px; height: 100px; display: none; background: black;">
+
+</div>
 <div class="grid_3 grid_5">
     <h3>Gerenciamento do Curso</h3>
     <br>
@@ -7,6 +10,11 @@
                 <li role="presentation">
                     <a href="#area_curso" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">
                         Curso
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#area_curso_professores" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">
+                        Professores do Curso
                     </a>
                 </li>
                 <li role="presentation" class="active">
@@ -53,6 +61,57 @@
                         </div>
                     </form>
                 </div>
+
+                <!-- Área de cadastro de professores do curso-->
+                <div class="tab-pane fade in " id="area_curso_professores" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="xs tabls">
+                        <div class="bs-example4" data-example-id="contextual-table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>Editar</th>
+                                        <th>Excluir</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php foreach ($curso->professores as $professor): ?>
+                                        <tr>
+                                            <td><?= $professor->nome ?></td>
+                                            <td><h4>
+                                                    <a href="#" data-target-id="<?= $professor->id ?>" data-method="edit-module">
+                                                        <span class="label label-primary">Editar</span>
+                                                    </a>
+                                            </td></h4>
+
+                                            <td><h4>
+                                                    <a href="#" value="<?= $professor->titulo ?>" data-target-id="<?= $professor->id ?>" data-method="delete">
+                                                        <span class="label label-danger">Excluir</span>
+                                                    </a>
+                                                </h4>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <br>
+                    <form class="form-horizontal" method="post" action="">
+                        <div class="form-group">
+                            <label for="focusedinput" class="col-sm-2 control-label">Nome do Professor</label>
+                            <div class="col-sm-8">
+                                <input name="nome" class="form-control1" id="focusedinput" placeholder="Nome do Professor" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-8 col-sm-offset-2">
+                                <button class="btn-success btn cadastrar_professores_curso">Cadastrar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- Fim da área de cadastro de professores do curso-->
 
                 <!-- Área de cadastro de disciplina-->
                 <div class="tab-pane fade in active" id="area_curso_disciplina" role="tabpanel" aria-labelledby="home-tab">

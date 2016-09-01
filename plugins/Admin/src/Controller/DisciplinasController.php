@@ -94,7 +94,7 @@ class DisciplinasController extends AppController {
                 $disciplina = $this->Disciplinas->get($id, [
                     'contain' => ['Aulas']
                 ]);
-                
+
                 if ($this->request->is(['patch', 'post', 'put', 'ajax'])) {
                     $disciplina = $this->Disciplinas->patchEntity($disciplina, $this->request->data);
                     if ($this->Disciplinas->save($disciplina)) {
@@ -119,50 +119,11 @@ class DisciplinasController extends AppController {
                 $disciplina = $this->Disciplinas->get($id, [
                     'contain' => ['Aulas']
                 ]);
-<<<<<<< HEAD
-                $this->request->data['id'] = $disciplina->id;
-                $this->request->data['titulo'] = $disciplina->titulo;
-                $this->request->data['curso_id'] = $disciplina->curso_id;
-                $this->request->data['excluido'] = 1;
-                $this->request->data['slug'] = $disciplina->slug;
-                $this->request->data['status'] = 0;
-                $this->request->data['deleted_at'] = date('Y-m-d H:i:s');
-                foreach ($disciplina->aulas as $aulas) {
-                    $this->request->data['aulas'][] = [
-                        'id' => $aulas->id,
-                        'titulo' => $aulas->titulo,
-                        'ordem' => $aulas->ordem,
-                        'iframe' => $aulas->iframe,
-                        'disciplina_id' => $aulas->disciplina_id,
-                        'status' => 0,
-                        'excluido' => 1,
-                        'deleted_at' => date('Y-m-d H:i:s')
-                    ];
-                }
-                $disciplina = $this->Disciplinas->patchEntity(
-                        $disciplina, $this->request->data, [
-                    'associated' => [
-                        'Aulas'
-                    ]
-                        ]
-                );
-                if ($this->Disciplinas->save($disciplina)) {
+                $this->request->allowMethod(['post', 'delete', 'ajax']);
+                if ($this->Disciplinas->delete($curso)) {
                     $retorno['sucesso'] = 'ok';
                 } else {
                     $retorno['sucesso'] = 'no';
-=======
-                
-                $disciplina->excluido = true;
-                $disciplina->deleted_at = date('Y-m-d H:i:s');
-                
-                if ($this->request->is(['patch', 'post', 'put', 'ajax'])) {
-                    $disciplina = $this->Disciplinas->patchEntity($disciplina, $this->request->data);
-                    if ($this->Disciplinas->save($disciplina)) {
-                        $retorno['sucesso'] = 'ok';
-                    } else {
-                        $retorno['sucesso'] = 'no';
-                    }
->>>>>>> fd6bbd507cc9fa42bf97b1cddd7ef469b82817a7
                 }
                 die(json_encode($retorno));
             }

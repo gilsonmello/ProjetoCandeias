@@ -94,7 +94,8 @@ class CursosController extends AppController {
                     'queryBuilder' => function (Query $q) {
                         return $q->where(['Disciplinas.status' => 1, 'Disciplinas.excluido' => 0]);
                     }
-                        ]
+                        ],
+                        'Professores'
                     ]
                 ]);
                 if ($this->request->is(['patch', 'post', 'put'])) {
