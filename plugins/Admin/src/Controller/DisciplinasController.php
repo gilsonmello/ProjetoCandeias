@@ -119,8 +119,20 @@ class DisciplinasController extends AppController {
                 $disciplina = $this->Disciplinas->get($id, [
                     'contain' => ['Aulas']
                 ]);
+                $this->request->data['status'] = 0;
+                $this->request->data['excluido'] = 1;
+                $this->request->data['deleted_at'] = date('Y-m-d H:i:s');
+                foreach ($disciplina->aulas as $aula) {
+                    $this->request->data['aulas'][] = [
+                        'id' => $aula->id,
+                        'status' => 0,
+                        'excluido' => 1,
+                        'deleted_at' => date('Y-m-d H:i:s')
+                    ];
+                }
+                $disciplina = $this->Disciplinas->patchEntity($disciplina, $this->request->data, ['associated' => ['Aulas' => ['accessibleFields' => ['id' => true]]]]);
                 $this->request->allowMethod(['post', 'delete', 'ajax']);
-                if ($this->Disciplinas->delete($curso)) {
+                if ($this->Disciplinas->save($disciplina, ['associated' => ['Aulas']])) {
                     $retorno['sucesso'] = 'ok';
                 } else {
                     $retorno['sucesso'] = 'no';

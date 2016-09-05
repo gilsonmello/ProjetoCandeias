@@ -1,37 +1,40 @@
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('List Professores'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('List Aulas'), ['controller' => 'Aulas', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Aula'), ['controller' => 'Aulas', 'action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Cursos'), ['controller' => 'Cursos', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Curso'), ['controller' => 'Cursos', 'action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Disciplinas'), ['controller' => 'Disciplinas', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Disciplina'), ['controller' => 'Disciplinas', 'action' => 'add']) ?></li>
-    </ul>
-</nav>
-<div class="professores form large-9 medium-8 columns content">
-    <?= $this->Form->create($professore) ?>
-    <fieldset>
-        <legend><?= __('Add Professore') ?></legend>
-        <?php
-            echo $this->Form->input('nome');
-            echo $this->Form->input('email');
-            echo $this->Form->input('senha');
-            echo $this->Form->input('descricao');
-            echo $this->Form->input('nome_foto');
-            echo $this->Form->input('status');
-            echo $this->Form->input('data_cadastro');
-            echo $this->Form->input('data_ultimo_acesso');
-            echo $this->Form->input('excluido');
-            echo $this->Form->input('slug');
-            echo $this->Form->input('facebook');
-            echo $this->Form->input('youtube');
-            echo $this->Form->input('aulas._ids', ['options' => $aulas]);
-            echo $this->Form->input('cursos._ids', ['options' => $cursos]);
-            echo $this->Form->input('disciplinas._ids', ['options' => $disciplinas]);
+<h3 class="blank1">Adicionar Professor</h3>
+<div class="tab-content">
+    <div class="tab-pane active" id="horizontal-form">
+        <?=
+        $this->Form->create('Professores', [
+            'type' => 'file',
+            'url' => [
+                'controller' => 'Professores',
+                'action' => 'add'
+            ],
+            'class' => 'form-horizontal'
+        ]);
         ?>
-    </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
-    <?= $this->Form->end() ?>
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">Nome</label>
+            <div class="col-sm-8">
+                <input name="nome" class="form-control1" id="focusedinput" placeholder="Default Input" type="text">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">E-mail</label>
+            <div class="col-sm-8">
+                <input name="email" class="form-control1" id="focusedinput" placeholder="Default Input" type="text">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">Senha</label>
+            <div class="col-sm-8">
+                <input name="senha" class="form-control1" id="focusedinput" placeholder="*****" type="password">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-8 col-sm-offset-2">
+                <button class="btn-success btn" type="submit">Submit</button>
+            </div>
+        </div>
+        <?php echo $this->Form->end(); ?>
+    </div>
 </div>

@@ -3,6 +3,7 @@
 namespace Admin\Controller;
 
 use Admin\Controller\AppController;
+use Cake\Auth\DefaultPasswordHasher;
 
 /**
  * Professores Controller
@@ -45,22 +46,20 @@ class ProfessoresController extends AppController {
      * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
      */
     public function add() {
-        $retorno = [];
-        $professore = $this->Professores->newEntity();
+        $professor = $this->Professores->newEntity();
         if ($this->request->is('post')) {
-            $professore = $this->Professores->patchEntity($professore, $this->request->data, ['associated' => ['Cursos']]);
-            if ($this->Professores->save($professore)) {
-                $retorno['sucesso'] = 'ok';
+            $this->request->data['regra'] = "Professor";
+            $this->request->data['senha'] = $this->_setPassword($this->request->data['senha']);
+            $professor = $this->Professores->patchEntity($professor, $this->request->data);
+            if ($this->Professores->save($professor)) {
+                $this->Flash->success(__('The professor has been saved.'));
+                return $this->redirect(['action' => 'index']);
             } else {
-                $retorno['sucesso'] = 'no';
+                $this->Flash->error(__('The categoria could not be saved. Please, try again.'));
             }
         }
-//        $aulas = $this->Professores->Aulas->find('list', ['limit' => 200]);
-//        $cursos = $this->Professores->Cursos->find('list', ['limit' => 200]);
-//        $disciplinas = $this->Professores->Disciplinas->find('list', ['limit' => 200]);
-        $this->set(compact('professore', 'aulas', 'cursos', 'disciplinas'));
-        $this->set('_serialize', ['professore']);
-        die(json_encode($retorno));
+        $this->set(compact('categoria'));
+        $this->set('_serialize', ['categoria']);
     }
 
     /**
@@ -108,6 +107,10 @@ class ProfessoresController extends AppController {
         }
 
         return $this->redirect(['action' => 'index']);
+    }
+
+    protected function _setPassword($password) {
+        return (new DefaultPasswordHasher)->hash($password);
     }
 
 }

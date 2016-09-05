@@ -1,5 +1,25 @@
-<div class="popup" style="position: absolute; z-index: 1000px; height: 100px; display: none; background: black;">
-
+<div class="background-popup" style="background-color: black; opacity: 0.9; position: fixed; z-index: 500"></div>
+<div class="popup" style="position: fixed; display: none; background: white;">
+    <div class="popup-close" style="height: 40px; color: white; position: fixed; right: 10px; top: 10px;">X</div>
+    <div class="grid" style="background: white; width: 50%;">
+        <form class="form-horizontal" method="post" action="">
+            <input type="hidden" value="" id="professor_id">
+            <div class="form-group">
+                <label for="focusedinput" class="col-sm-2 control-label">Título do Curso</label>
+                <div class="col-sm-8">
+                    <input name="nome" value="" class="form-control1" id="professor_nome" placeholder="Título do Curso" type="text">
+                </div>
+                <!--<div class="col-sm-2 jlkdfj1">
+                    <p class="help-block">Your help text!</p>
+                </div>-->
+            </div>
+            <div class="form-group">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <button class="btn-success btn editar_professor_curso">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
 <div class="grid_3 grid_5">
     <h3>Gerenciamento do Curso</h3>
@@ -31,7 +51,7 @@
             </ul>
             <div id="myTabContent" class="tab-content">
                 <div class="tab-pane fade in " id="area_curso" role="tabpanel" aria-labelledby="home-tab">
-                    <form class="form-horizontal" method="post" action="/ProjetoCandeias/admin/cursos/edit/<?php echo $curso->id ?>">
+                    <form class="form-horizontal" method="post" action="<?php echo BASE . '/' . strtolower($this->name) ?>/cursos/edit/<?php echo $curso->id ?>">
                         <div class="form-group">
                             <label for="focusedinput" class="col-sm-2 control-label">Título do Curso</label>
                             <div class="col-sm-8">
@@ -70,7 +90,6 @@
                                 <thead>
                                     <tr>
                                         <th>Nome</th>
-                                        <th>Editar</th>
                                         <th>Excluir</th>
                                     </tr>
                                 </thead>
@@ -78,12 +97,6 @@
                                     <?php foreach ($curso->professores as $professor): ?>
                                         <tr>
                                             <td><?= $professor->nome ?></td>
-                                            <td><h4>
-                                                    <a href="#" data-target-id="<?= $professor->id ?>" data-method="edit-module">
-                                                        <span class="label label-primary">Editar</span>
-                                                    </a>
-                                            </td></h4>
-
                                             <td><h4>
                                                     <a href="#" value="<?= $professor->titulo ?>" data-target-id="<?= $professor->id ?>" data-method="delete">
                                                         <span class="label label-danger">Excluir</span>
@@ -97,16 +110,32 @@
                         </div>
                     </div>
                     <br>
-                    <form class="form-horizontal" method="post" action="">
+                    <form class="form-horizontal" method="post" id="professores_curso" action="">
                         <div class="form-group">
-                            <label for="focusedinput" class="col-sm-2 control-label">Nome do Professor</label>
+                            <label class="col-sm-2 control-label">Professores</label>
                             <div class="col-sm-8">
-                                <input name="nome" class="form-control1" id="focusedinput" placeholder="Nome do Professor" type="text">
+                                <select class="chosen-select" name="professores[_ids][]" multiple="multiple" class="form-control1">
+                                    <?php
+                                    foreach ($professores as $professor) {
+                                        $selected = "";
+                                        foreach ($curso->professores as $curso_professor) {
+                                            if ($curso_professor->id == $professor->id) {
+                                                $selected = 'selected = "selected"';
+                                                break;
+                                                ?>
+                                            <?php } ?>
+                                        <?php } ?>
+                                        <option <?php echo $selected; ?> value="<?= $professor->id ?>">
+                                            <?= $professor->nome ?>
+                                        </option>
+                                    <?php } ?>
+                                </select>
                             </div>
                         </div>
+                        <br>
                         <div class="form-group">
                             <div class="col-sm-8 col-sm-offset-2">
-                                <button class="btn-success btn cadastrar_professores_curso">Cadastrar</button>
+                                <button class="btn-success btn cadastrar_disciplina">Cadastrar</button>
                             </div>
                         </div>
                     </form>
@@ -235,5 +264,7 @@
         </div>
     </div>
 </div>
-
+<script src="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/chosen/chosen.jquery.js"></script>
+<script src="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/professores/select_professores.js"></script>
+<link rel="stylesheet" href="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/chosen/chosen.css">
 <script src="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/disciplinas/add.js"></script>

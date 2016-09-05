@@ -102,13 +102,19 @@ class CursosController extends AppController {
                     $curso = $this->Cursos->patchEntity($curso, $this->request->data);
                     if ($this->Cursos->save($curso)) {
                         $this->Flash->success(__('The curso has been saved.'));
-
                         return $this->redirect(['action' => 'index']);
                     } else {
                         $this->Flash->error(__('The curso could not be saved. Please, try again.'));
                     }
                 }
-                $this->set(compact('curso'));
+                $professores = $this->Cursos->Professores->find('all', [
+                            'conditions' => [
+                                'excluido' => 0,
+                                'status' => 1
+                            ]
+                                ]
+                        )->orderAsc('nome');
+                $this->set(compact('curso', 'professores'));
                 $this->set('_serialize', ['curso']);
             }
 
@@ -129,6 +135,42 @@ class CursosController extends AppController {
                 }
 
                 return $this->redirect(['action' => 'index']);
+            }
+
+            public function addProfessor($id = null) {
+                $retorno = [];
+                $curso = $this->Cursos->get($id);
+                if ($this->request->is('ajax')) {
+                    $curso = $this->Cursos->patchEntity($curso, $this->request->data, [
+                        'associated' => [
+                            'Professores'
+                        ]
+                    ]);
+                    if ($this->Cursos->save($curso)) {
+                        $retorno['sucesso'] = 'ok';
+                    } else {
+                        $retorno['sucesso'] = 'no';
+                    }
+                }
+                die(json_encode($retorno));
+            }
+
+            public function deleteProfessor($curso_id = null) {
+                $retorno = [];
+                $curso = $this->Cursos->get($curso_id);
+                if ($this->request->is('ajax')) {
+                    $curso = $this->Cursos->patchEntity($curso, $this->request->data, [
+                        'associated' => [
+                            'Professores'
+                        ]
+                    ]);
+                    if ($this->Cursos->save($curso)) {
+                        $retorno['sucesso'] = 'ok';
+                    } else {
+                        $retorno['sucesso'] = 'no';
+                    }
+                }
+                die(json_encode($retorno));
             }
 
         }
