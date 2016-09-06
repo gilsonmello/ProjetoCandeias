@@ -73,8 +73,6 @@ class CursosController extends AppController {
                 $this->Flash->error(__('O Curso não foi salvado, tente novamente.'));
             }
         }
-//        $matriculas = $this->Cursos->Matriculas->find('list', ['limit' => 200]);
-//        $professores = $this->Cursos->Professores->find('list', ['limit' => 200]);
         $categorias = $this->Cursos->Categorias->find('all');
         $this->set(compact('curso', 'categorias'));
         $this->set('_serialize', ['curso']);
@@ -92,85 +90,88 @@ class CursosController extends AppController {
             'contain' => [
                 'Disciplinas' => [
                     'queryBuilder' => function (Query $q) {
-                        return $q->where(['Disciplinas.status' => 1, 'Disciplinas.excluido' => 0]);
+                        return $q->where([
+                            'Disciplinas.status' => 1, 
+                            'Disciplinas.excluido' => 0
+                            ]);
                     }
-                        ],
-                        'Professores'
-                    ]
-                ]);
-                if ($this->request->is(['patch', 'post', 'put'])) {
-                    $curso = $this->Cursos->patchEntity($curso, $this->request->data);
-                    if ($this->Cursos->save($curso)) {
-                        $this->Flash->success(__('The curso has been saved.'));
-                        return $this->redirect(['action' => 'index']);
-                    } else {
-                        $this->Flash->error(__('The curso could not be saved. Please, try again.'));
-                    }
-                }
-                $professores = $this->Cursos->Professores->find('all', [
-                            'conditions' => [
-                                'excluido' => 0,
-                                'status' => 1
-                            ]
-                                ]
-                        )->orderAsc('nome');
-                $this->set(compact('curso', 'professores'));
-                $this->set('_serialize', ['curso']);
-            }
-
-            /**
-             * Delete method
-             *
-             * @param string|null $id Curso id.
-             * @return \Cake\Network\Response|null Redirects to index.
-             * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-             */
-            public function delete($id = null) {
-                $this->request->allowMethod(['post', 'delete']);
-                $curso = $this->Cursos->get($id);
-                if ($this->Cursos->delete($curso)) {
-                    $this->Flash->success(__('The curso has been deleted.'));
-                } else {
-                    $this->Flash->error(__('The curso could not be deleted. Please, try again.'));
-                }
-
+                ],
+                'Professores'
+            ]
+        ]);
+        if ($this->request->is(['patch', 'post', 'put'])) {
+            $curso = $this->Cursos->patchEntity($curso, $this->request->data);
+            if ($this->Cursos->save($curso)) {
+                $this->Flash->success(__('The curso has been saved.'));
                 return $this->redirect(['action' => 'index']);
+            } else {
+                $this->Flash->error(__('The curso could not be saved. Please, try again.'));
             }
-
-            public function addProfessor($id = null) {
-                $retorno = [];
-                $curso = $this->Cursos->get($id);
-                if ($this->request->is('ajax')) {
-                    $curso = $this->Cursos->patchEntity($curso, $this->request->data, [
-                        'associated' => [
-                            'Professores'
-                        ]
-                    ]);
-                    if ($this->Cursos->save($curso)) {
-                        $retorno['sucesso'] = 'ok';
-                    } else {
-                        $retorno['sucesso'] = 'no';
-                    }
-                }
-                die(json_encode($retorno));
-            }
-
-            public function deleteProfessor($curso_id = null) {
-                $retorno = [];
-                $curso = $this->Cursos->get($curso_id);
-                if ($this->request->is('ajax')) {
-                    $curso = $this->Cursos->patchEntity($curso, $this->request->data, [
-                        'associated' => [
-                            'Professores'
-                        ]
-                    ]);
-                    if ($this->Cursos->save($curso)) {
-                        $retorno['sucesso'] = 'ok';
-                    } else {
-                        $retorno['sucesso'] = 'no';
-                    }
-                }
-                die(json_encode($retorno));
-            }
-
         }
+        $professores = $this->Cursos->Professores->find('all', [
+                    'conditions' => [
+                        'excluido' => 0,
+                        'status' => 1
+                    ]
+                        ]
+                )->orderAsc('nome');
+        $this->set(compact('curso', 'professores'));
+        $this->set('_serialize', ['curso']);
+    }
+
+    /**
+     * Delete method
+     *
+     * @param string|null $id Curso id.
+     * @return \Cake\Network\Response|null Redirects to index.
+     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
+     */
+    public function delete($id = null) {
+        $this->request->allowMethod(['post', 'delete']);
+        $curso = $this->Cursos->get($id);
+        if ($this->Cursos->delete($curso)) {
+            $this->Flash->success(__('The curso has been deleted.'));
+        } else {
+            $this->Flash->error(__('The curso could not be deleted. Please, try again.'));
+        }
+
+        return $this->redirect(['action' => 'index']);
+    }
+
+    public function addProfessor($id = null) {
+        $retorno = [];
+        $curso = $this->Cursos->get($id);
+        if ($this->request->is('ajax')) {
+            $curso = $this->Cursos->patchEntity($curso, $this->request->data, [
+                'associated' => [
+                    'Professores'
+                ]
+            ]);
+            if ($this->Cursos->save($curso)) {
+                $retorno['sucesso'] = 'ok';
+            } else {
+                $retorno['sucesso'] = 'no';
+            }
+        }
+        die(json_encode($retorno));
+    }
+
+    public function deleteProfessor($curso_id = null) {
+        $retorno = [];
+        $curso = $this->Cursos->get($curso_id);
+        if ($this->request->is('ajax')) {
+            $curso = $this->Cursos->patchEntity($curso, $this->request->data, [
+                'associated' => [
+                    'Professores'
+                ]
+            ]);
+            if ($this->Cursos->save($curso)) {
+                $retorno['sucesso'] = 'ok';
+            } else {
+                $retorno['sucesso'] = 'no';
+            }
+        }
+        die(json_encode($retorno));
+    }
+
+}

@@ -112,5 +112,18 @@ class ProfessoresController extends AppController {
     protected function _setPassword($password) {
         return (new DefaultPasswordHasher)->hash($password);
     }
-
+    
+    public function retornaProfessor($id = null){
+        $retorno = [];
+        $professor = $this->Professores->get($id);
+        if(!empty($professor)){
+            $retorno['sucesso'] = "ok";
+            $retorno['id'] = $professor->id;
+            $retorno['nome'] = $professor->nome;
+        }else{
+            $retorno['sucesso'] = "no";
+        }
+        
+        die(json_encode($retorno));
+    }
 }

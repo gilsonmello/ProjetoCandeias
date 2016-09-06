@@ -75,16 +75,6 @@ class AulasTable extends Table {
 //            'className' => 'Admin.Cursos'
 //        ]);
     }
-
-    public function beforeFind(Event $event, Query $data, ArrayObject $options, $primary) {
-        $data->where(['Aulas.status' => 1, 'Aulas.excluido' => 0]);
-    }
-
-    public function beforeDelete(Event $event, EntityInterface $entity, ArrayObject $options, $primary) {
-        $entity->excluido = 1;
-        $entity->deleted_at = date('Y-m-d H:i:s');
-    }
-
     /**
      * Default validation rules.
      *

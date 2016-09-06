@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 $(function () {
+    CKEDITOR.replace( 'teste' );
+        
     //Variável que irá conter o id de cada disciplina clicada
     var disciplina_id;
 
@@ -74,7 +76,7 @@ $(function () {
         //Pegando o id da disciplina pela tag <a> através atributo data-target-id
         disciplina_id = $(this).attr('data-target-id');
         if (metodo == 'edit-module') {
-//Fazendo requisão via ajax, método post
+            //Fazendo requisão via ajax, método post, parâmetro o id da disciplina
             $.ajax({
                 method: "POST",
                 url: BASE + "/disciplinas/view/" + disciplina_id,
@@ -113,7 +115,6 @@ $(function () {
                             }
                             //Fim do loop
                         }
-
                         //Adicionando html a tabela na #area_curso_aulas
                         $('#area_curso_aulas table tbody').html(html);
                         //Atribuindo ao input hidden o valor da disciplina clicada no atributo data-target-disciplina-id
@@ -149,7 +150,9 @@ $(function () {
                             if ($('#tab_aulas').attr('style') == 'display: block;') {
                                 $('#tab_aulas').attr('style', 'display: none;');
                             }
-                            $(elemento).parent().parent().parent().fadeOut('slow');
+                            $(elemento).parent().parent().parent().fadeOut('slow').promise().done(function(){
+                                $(this).remove();
+                            });
                         }
                     }
                 });
@@ -209,42 +212,17 @@ $(function () {
                     },
                     success: function (retorno, textStatus, jqXHR) {
                         if (retorno.sucesso == 'ok') {
-                            console.log();
-                            $(elemento).parent().parent().parent().fadeOut('slow');
+                            console.log(elemento);
+                            $(elemento).parent().parent().parent().fadeOut('slow').promise().done(function(){
+                                $(this).remove();
+                            });
                         }
                     }
                 });
             }
         }
     });
-
-//    $(document).on('click', '#professores_curso', function (e) {
-//        e.preventDefault();
-//        e.stopPropagation();
-//        var elemento = $(this);
-//        var nomeProfessor = $('#nome_professor').val();
-//        var curso_id = $('#curso_id').val();
-//        var aula_id = $(this).attr('data-target-id');
-//        $.ajax({
-//            method: "POST",
-//            url: BASE + "/professores/add/",
-//            dataType: "JSON",
-//            data: {
-//                nome: nomeProfessor,
-//                curso_id: curso_id
-//            },
-//            success: function (retorno, textStatus, jqXHR) {
-//                if (retorno.sucesso == 'ok') {
-//
-//                }
-//            }
-//        });
-//
-//
-//    });
-
-
-    //Função para deletar aula da disciplina selecionada
+    //Função para abrir poup
     $(document).on('click', '#area_curso_professores table a', function (e) {
         e.preventDefault();
         e.stopPropagation();
@@ -300,6 +278,46 @@ $(function () {
             },
             url: BASE + "/professor/edit/" + professor_id,
             dataType: "JSON",
+            success: function (data, textStatus, jqXHR) {
+
+            }
+        });
+    });
+    
+    //Função para deletar professores do curso
+    $('.chosen-select').chosen({width: "500px", height: "100px", disable_search_threshold: 10}).change(function (e, params) {
+        var selecionado = params.selected;
+        var deselecionado = params.deselected;
+        var curso_id = $('#curso_id').val();
+        var professores_ids = $(this).val();
+        $.ajax({
+            method: "POST",
+            url: BASE + "/cursos/deleteProfessor/" + curso_id,
+            dataType: "JSON",
+            data: {
+                "id": curso_id,
+                "professores[_ids]": professores_ids
+            },
+            success: function (data, textStatus, jqXHR) {
+
+            }
+        });
+    });
+    
+    //Função para inserir professores no curso
+    $('#professores_curso').submit(function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var professores_id = $('.chosen-select').val();
+        var curso_id = $('#curso_id').val();
+        $.ajax({
+            method: "POST",
+            url: BASE + "/cursos/addProfessor/" + curso_id,
+            dataType: "JSON",
+            data: {
+                "id": curso_id,
+                "professores[_ids]": professores_id
+            },
             success: function (data, textStatus, jqXHR) {
 
             }

@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?php echo BASE . '/' . strtolower($this->plugin); ?>/css/chosen/chosen.css">
 <div class="background-popup" style="background-color: black; opacity: 0.9; position: fixed; z-index: 500"></div>
 <div class="popup" style="position: fixed; display: none; background: white;">
     <div class="popup-close" style="height: 40px; color: white; position: fixed; right: 10px; top: 10px;">X</div>
@@ -73,6 +74,15 @@
                                 <input name="conteudo" value="<?php echo $curso->conteudo ?>" class="form-control1" id="focusedinput" placeholder="Conteúdo" type="text">
                             </div>
                         </div>
+                        
+                        <div class="form-group">
+                            <label for="inputPassword" class="col-sm-2 control-label">Conteúdo</label>
+                            <div class="col-sm-8">
+                                <textarea id="teste">
+                                    
+                                </textarea>
+                            </div>
+                        </div>
 
                         <div class="form-group">
                             <div class="col-sm-8 col-sm-offset-2">
@@ -84,51 +94,25 @@
 
                 <!-- Área de cadastro de professores do curso-->
                 <div class="tab-pane fade in " id="area_curso_professores" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="xs tabls">
-                        <div class="bs-example4" data-example-id="contextual-table">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>Nome</th>
-                                        <th>Excluir</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php foreach ($curso->professores as $professor): ?>
-                                        <tr>
-                                            <td><?= $professor->nome ?></td>
-                                            <td><h4>
-                                                    <a href="#" value="<?= $professor->titulo ?>" data-target-id="<?= $professor->id ?>" data-method="delete">
-                                                        <span class="label label-danger">Excluir</span>
-                                                    </a>
-                                                </h4>
-                                            </td>
-                                        </tr>
-                                    <?php endforeach; ?>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
                     <br>
                     <form class="form-horizontal" method="post" id="professores_curso" action="">
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Professores</label>
                             <div class="col-sm-8">
-                                <select class="chosen-select" name="professores[_ids][]" multiple="multiple" class="form-control1">
+                                <select data-placeholder="Selecione o professor" class="chosen-select" name="professores[_ids][]" multiple="multiple" class="form-control1">
                                     <?php
-                                    foreach ($professores as $professor) {
+                                    foreach ($professores as $professor) :
                                         $selected = "";
-                                        foreach ($curso->professores as $curso_professor) {
-                                            if ($curso_professor->id == $professor->id) {
+                                        foreach ($curso->professores as $curso_professor) :
+                                            if ($curso_professor->id == $professor->id) :
                                                 $selected = 'selected = "selected"';
-                                                break;
-                                                ?>
-                                            <?php } ?>
-                                        <?php } ?>
+                                                break; 
+                                            endif; 
+                                        endforeach;?>
                                         <option <?php echo $selected; ?> value="<?= $professor->id ?>">
                                             <?= $professor->nome ?>
                                         </option>
-                                    <?php } ?>
+                                    <?php endforeach; ?>
                                 </select>
                             </div>
                         </div>
@@ -264,7 +248,7 @@
         </div>
     </div>
 </div>
+<script src="<?php echo BASE; ?>/js/ckeditor/ckeditor.js"></script>
 <script src="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/chosen/chosen.jquery.js"></script>
 <script src="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/professores/select_professores.js"></script>
-<link rel="stylesheet" href="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/chosen/chosen.css">
 <script src="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/disciplinas/add.js"></script>

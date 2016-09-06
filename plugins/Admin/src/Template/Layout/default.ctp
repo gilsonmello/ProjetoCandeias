@@ -26,6 +26,7 @@
         </title>
         <script type="text/javascript">
             var BASE = "<?php echo BASE . '/' . strtolower($this->plugin); ?>";
+            var BASE2 = "<?php echo BASE; ?>";
         </script>
 
         <script src="<?php echo BASE; ?>/js/jquery/jquery-2.2.3.min.js"></script>
