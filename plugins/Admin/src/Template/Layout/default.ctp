@@ -26,11 +26,11 @@
         </title>
         <script type="text/javascript">
             var BASE = "<?php echo BASE . '/' . strtolower($this->plugin); ?>";
-            var BASE2 = "<?php echo BASE; ?>";
         </script>
 
         <script src="<?php echo BASE; ?>/js/jquery/jquery-2.2.3.min.js"></script>
         <!-- start: CSS -->
+        
         <!-- animate CSS -->
         <link href="<?php echo BASE . '/' . strtolower($this->plugin); ?>/css/animate.css" rel="stylesheet" type="text/css" media="all">
 
@@ -45,6 +45,30 @@
 
         <!-- lined-icons -->
         <link rel="stylesheet" href="<?php echo BASE . '/' . strtolower($this->plugin); ?>/css/icon-font.min.css" type='text/css' />
+        
+        <link href="<?php echo BASE; ?>/js/editor/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Include Editor style. -->
+        <link href="<?php echo BASE; ?>/js/editor/css/froala_editor.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo BASE; ?>/js/editor/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Include Editor Plugins style. -->
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/char_counter.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/code_view.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/colors.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/emoticons.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/file.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/fullscreen.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/image.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/image_manager.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/line_breaker.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/quick_insert.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/table.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/plugins/video.css">
+        
+        <!-- Include Code Mirror style -->
+        <link rel="stylesheet" href="<?php echo BASE; ?>/js/editor/css/codemirror.min.css">
+
         <!-- end: CSS -->
         <?= $this->fetch('meta') ?>
         <?= $this->fetch('css') ?>
@@ -318,6 +342,41 @@
                 });
             });
         </script>
+        
+        <!-- Include JS files. -->
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/froala_editor.min.js"></script>
+        
+        <!-- Include Code Mirror. -->
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/codemirror.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/xml.min.js"></script>
+        
+        <!-- Include Plugins. -->
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/languages/pt_br.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/align.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/char_counter.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/code_beautifier.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/code_view.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/colors.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/emoticons.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/entities.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/file.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/font_family.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/font_size.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/fullscreen.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/image.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/image_manager.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/inline_style.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/line_breaker.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/link.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/lists.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/paragraph_format.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/paragraph_style.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/quick_insert.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/quote.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/table.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/save.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/url.min.js"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>/js/editor/js/plugins/video.min.js"></script>
 
         <!-- end: JavaScript-->
 

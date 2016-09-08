@@ -248,7 +248,7 @@
         </div>
     </div>
 </div>
-<script src="<?php echo BASE; ?>/js/ckeditor/ckeditor.js"></script>
+
 <script src="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/chosen/chosen.jquery.js"></script>
 <script src="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/professores/select_professores.js"></script>
 <script src="<?php echo BASE . '/' . strtolower($this->plugin); ?>/js/disciplinas/add.js"></script>

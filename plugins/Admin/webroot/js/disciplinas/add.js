@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 $(function () {
-    CKEDITOR.replace( 'teste' );
+    
         
     //Variável que irá conter o id de cada disciplina clicada
     var disciplina_id;

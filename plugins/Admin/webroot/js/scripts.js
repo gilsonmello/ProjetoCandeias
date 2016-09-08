@@ -1,8 +1,31 @@
 (function() {
     "use strict";
+    
+    $(function() {
+        if($('textarea').length > 0){
+            $('textarea').each(function(){
+                $(this).froalaEditor({
+                    height: "250px",
+                    placeholderText: 'Digite o texto aqui...',
+                    language: 'pt_br'
+                }); 
+            });
+        }
+    });
+    
+    $('[data-method]').append(function(){
+        return "\n"+
+        "<form action='"+$(this).attr('href')+"' method='POST' name='delete_item' style='display:none'>\n</form>\n";
+    }).removeAttr('href')
+      .attr('style','cursor:pointer;')
+      .attr('onclick','$(this).find("form").submit();');
+      
+    $('form[name=delete_item]').submit(function(){
+        return confirm("Tem certeza que deseja excluir esse item?");
+    });
+    
 
     // custom scrollbar
-
     $("html").niceScroll({
         styler: "fb",
         cursorcolor: "#27cce4",
