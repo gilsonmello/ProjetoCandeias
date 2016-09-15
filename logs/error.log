@@ -42180,3 +42180,330 @@ Stack Trace:
 #10 {main}
 
 
+2016-09-12 13:33:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => 'Admin',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/admin/images/6.png
+Referer URL: http://localhost/ProjetoCandeias/admin/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/principal
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/js/editor/fonts/fontawesome-webfont.woff2?v=4.4.0
+Referer URL: http://localhost/ProjetoCandeias/js/editor/css/font-awesome.min.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/js/editor/fonts/fontawesome-webfont.woff?v=4.4.0
+Referer URL: http://localhost/ProjetoCandeias/js/editor/css/font-awesome.min.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/js/editor/fonts/fontawesome-webfont.ttf?v=4.4.0
+Referer URL: http://localhost/ProjetoCandeias/js/editor/css/font-awesome.min.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/js/editor/fonts/fontawesome-webfont.woff2?v=4.4.0
+Referer URL: http://localhost/ProjetoCandeias/js/editor/css/font-awesome.min.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/js/editor/fonts/fontawesome-webfont.woff?v=4.4.0
+Referer URL: http://localhost/ProjetoCandeias/js/editor/css/font-awesome.min.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/js/editor/fonts/fontawesome-webfont.ttf?v=4.4.0
+Referer URL: http://localhost/ProjetoCandeias/js/editor/css/font-awesome.min.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:36 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-09-12 13:34:37 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.png
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-09-12 13:34:37 Error: [Cake\Controller\Exception\MissingActionException] Action CursosController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CursosController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => 'Admin',
+)
+Request URL: /ProjetoCandeias/admin/cursos/img/1.jpg
+Referer URL: http://localhost/ProjetoCandeias/admin/cursos/edit/2
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(124): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(98): Cake\Http\ActionDispatcher->_invoke(Object(Admin\Controller\CursosController))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2016-09-12 13:34:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/js/editor/fonts/fontawesome-webfont.woff2?v=4.4.0
+Referer URL: http://localhost/ProjetoCandeias/js/editor/css/font-awesome.min.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/js/editor/fonts/fontawesome-webfont.woff?v=4.4.0
+Referer URL: http://localhost/ProjetoCandeias/js/editor/css/font-awesome.min.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-09-12 13:34:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /ProjetoCandeias/js/editor/fonts/fontawesome-webfont.ttf?v=4.4.0
+Referer URL: http://localhost/ProjetoCandeias/js/editor/css/font-awesome.min.css
+Stack Trace:
+#0 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(66): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(52): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(83): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\ProjetoCandeias\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\ProjetoCandeias\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+

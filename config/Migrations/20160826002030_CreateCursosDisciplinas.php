@@ -11,7 +11,7 @@ class CreateCursosDisciplinas extends AbstractMigration {
      * http://docs.phinx.org/en/latest/migrations.html#the-change-method
      * @return void
      */
-    public function change() {
+    public function up() {
         $table = $this->table('cursos_disciplinas');
         $table->addColumn('curso_id', 'integer', [
             'null' => false
