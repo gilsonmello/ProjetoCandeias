@@ -8,9 +8,12 @@ use Cake\Auth\DefaultPasswordHasher;
 use Cake\ORM\Query;
 
 class AppController extends BaseController {
-
-    public $usuarioLogado;
-    public $url;
+    
+    //Variável que irá conter os dados do usuário logado
+    protected $usuarioLogado = [];
+    
+    //Variável que irá conter a url
+    protected $url = "";
 
     /**
      * Initialization hook method.
@@ -40,9 +43,10 @@ class AppController extends BaseController {
                     'targetForeignKey' => 'secao_id',
                     'joinTable' => 'usuarios_secoes',
                     'className' => 'Admin.Secoes',
-                    'order' => [
-                        'Secoes.titulo' => 'DESC'
-                    ]
+                    'conditions' => [
+                        'Secoes.excluido' => 0
+                    ],
+                    'sort' => ['Secoes.titulo' => 'ASC']
         ]);
         //Relacionamento tabelas secoes e usuarios
         $this->loadModel('Secoes')
@@ -51,9 +55,8 @@ class AppController extends BaseController {
                     'targetForeignKey' => 'usuario_id',
                     'joinTable' => 'usuarios_secoes',
                     'className' => 'Admin.Usuarios',
-                    'order' => [
-                        'Secoes.titulo' => 'DESC'
-                    ]
+                    
+                    
         ]);
         //Relacionamento das secoes níveis 2
         $this->loadModel('Secoes')
@@ -62,8 +65,7 @@ class AppController extends BaseController {
                     'joinType' => 'INNER',
                     'className' => 'Admin.Secoes',
                     'conditions' => [
-                        'nivel <' => 3,
-                        'excluido' => 0
+                        'SubSecao.excluido' => 0
                     ],
                     'order' => ['SubSecao.titulo DESC']
         ]);
@@ -73,15 +75,19 @@ class AppController extends BaseController {
         parent::beforeFilter($event);
     }
 
+    /**
+     * @param Event $event
+     */
     public function beforeRender(Event $event) {
-
         if (!array_key_exists('_serialize', $this->viewVars) &&
                 in_array($this->response->type(), ['application/json', 'application/xml'])
         ) {
             $this->set('_serialize', true);
         }
+        
         //Setando parâmetros para o component Breadcrumb.
         $this->setBreadCrumbs();
+        
         //Retornando a string com o Breadcrumb para o layout default.
         $this->getBreadCrumbs();
 
@@ -98,44 +104,15 @@ class AppController extends BaseController {
     }
 
     /**
-     * retornarSecoesUsuarios method
-     * @param int|null $id Galeria id.
-     * @return array|null
-     */
-    protected function retornarSecoesUsuarios($id = NULL) {
-        if (isset($id)) {
-            $query = $this->Usuarios->find('all', [
-                        'conditions' => [
-                            'id' => $id
-                        ]
-                    ])->contain([
-                        'Secoes' => [
-                            'conditions' => [
-                                'Secoes.nivel' => 1
-                            ],
-                            'queryBuilder' => function (Query $q) {
-                        return $q->order(['Secoes.titulo' => 'ASC']);
-                    }
-                        ]
-                    ])
-                    ->toArray();
-
-            return $query;
-        }
-    }
-
-    /**
-     * getBreadCrumbs method
-     *
-     */
+    * getBreadCrumbs method
+    */
     protected function getBreadCrumbs() {
         $this->set('crumb', $this->Breadcrumb->getCrumb());
     }
 
     /**
-     * setBreadCrumbs method
-     *
-     */
+    * setBreadCrumbs method
+    */
     protected function setBreadCrumbs() {
         $this->loadModel("Secoes");
         $secoes = $this->Secoes->find('all', ['order' => 'nivel ASC'])->toArray();
@@ -150,45 +127,67 @@ class AppController extends BaseController {
             }
         }
     }
-
+    
+    
+    /**
+     * retornarSecoesUsuarios method
+     * @param int|null.
+     * @return array|null
+     */
+    protected function retornarSecoesUsuarios($id = NULL) {
+        $query = [];
+        if (isset($id)) {
+            //Pegando todas as seções do usuário de nivel 1
+            $secoes = $this->Usuarios->get($id, [
+                'contain' => ['Secoes' => ['conditions' => ['Secoes.nivel' => 1]]]
+            ])->toArray();
+            //Pegando todas as seções do usuário de nivel 2
+            $subSecoes = $this->Usuarios->get($id, [
+                'contain' => ['Secoes' => ['conditions' => ['Secoes.nivel' => 2]]]
+            ])->toArray();
+        
+            $i = 0;
+            //Concatenando na seção pai todos as suas subseções
+            foreach($secoes['secoes'] as $secao){
+               $query[] = [
+                   'id' => $secao['id'],
+                   'titulo' => $secao['titulo'], 
+                   'link' => $secao['link'],
+                   'referencia' => $secao['referencia']
+                ];
+               foreach($subSecoes['secoes'] as $subSecao){
+                   if($subSecao['secao_id'] == $secao['id']){
+                       $query[$i]['SubSecao'][] = $subSecao;
+                   }
+               }
+               $i++;
+            }
+            //Retornando o array contendo as seções que o usuário tem permissão
+            return $query;
+        }
+    }
     /**
      * setSideBarLeft method
      * @return string
      */
     protected function setSideBarLeft() {
-
         $usuariosSecoes = $this->retornarSecoesUsuarios($this->Auth->user('id'));
-
-        $subsecoesUsuarios = $this->Usuarios->find('all', [
-                    'conditions' => [
-                        'id' => $this->Auth->user('id')
-                    ]
-                ])
-                ->contain(['Secoes' => [
-                        'conditions' => [
-                            'Secoes.nivel' => 2
-                        ],
-                        'queryBuilder' => function (Query $q) {
-                    return $q->order(['Secoes.titulo' => 'ASC']);
-                }
-                    ]
-                ])
-                ->toArray();
-
-
-
-        return $this->Sidebarleft->setSideBarLeft($subsecoesUsuarios, $usuariosSecoes, $this->url);
+        return $this->Sidebarleft->setSideBarLeft($usuariosSecoes, $this->url);
     }
-
+    
+    /**
+     * verificarPermissoes method
+     * @return boolean
+     */
     public function verificarPermissoes() {
-        $usuariosSecoes = $this->Usuarios->find('all', [
-                            'conditions' => [
-                                'id' => (int) $this->usuarioLogado
-                            ]
-                        ])
-                        ->contain([
-                            'Secoes'
-                        ])->toArray();
+        $usuariosSecoes = 
+            $this->Usuarios->find('all', [
+                'conditions' => [
+                    'id' => (int) $this->usuarioLogado
+                ]
+            ])
+            ->contain(['Secoes'])
+            ->toArray();
 
         if (!empty($usuariosSecoes)) {
             foreach ($usuariosSecoes[0]->secoes as $usuariosSecao) {
@@ -199,7 +198,11 @@ class AppController extends BaseController {
         }
         return false;
     }
-
+    /**
+     * 
+     * @param type $string
+     * @return string
+     */
     protected function removeAcentuacao($string) {
         $acentos = [
             "/(á|à|ã|â|ä)/",

@@ -129,6 +129,7 @@ class UsuariosController extends AppController {
         $usuario = $this->Usuarios->get($id, [
             'contain' => ['Secoes']
         ]);
+//        die(var_dump($usuario));
         if ($this->request->is(['patch', 'post', 'put'])) {
             $usuario = $this->Usuarios->patchEntity($usuario, $this->request->data, [
                 'associated' => [

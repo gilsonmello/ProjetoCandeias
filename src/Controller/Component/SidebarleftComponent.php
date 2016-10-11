@@ -16,12 +16,12 @@ class SidebarleftComponent extends Component{
      */
     protected $_defaultConfig = [];
 
-    public function setSideBarLeft($subsecoes = [], $usuariosSecoes = [], $url = ""){
+    public function setSideBarLeft($usuariosSecoes = [], $url = ""){
         if(isset($usuariosSecoes)){
             $html = '<ul class="nav nav-pills nav-stacked custom-nav">';
-            foreach ( $usuariosSecoes[0]->secoes as $secao ){
-                if($secao->titulo != 'Principal'){
-                    $referencias = explode( "#", $secao->referencia );
+            foreach ( $usuariosSecoes as $secao ){
+                if($secao['titulo'] != 'Principal'){
+                    $referencias = explode( "#", $secao['referencia'] );
                     $ativa = '';
                     $ativaLink = '';
                     while ( $referencia = array_pop( $referencias ) ) {
@@ -30,21 +30,22 @@ class SidebarleftComponent extends Component{
                             break;
                         }
                     }
-                    if ( $secao->titulo != "Dashboard") {
+                    if ( $secao['titulo'] != "Dashboard") {
                         $html .= '<li class="menu-list '.$ativa.'">';
-                            $secao->link = empty($secao->link) ? "#" : $secao->link;
-                            $html .= '<a href="'.$secao->link.'">';
+                            $secao['link'] = empty($secao['link']) ? "#" : $secao['link'];
+                            $html .= '<a href="'.$secao['link'].'">';
                                 $html .= '<i class="lnr lnr-spell-check"></i>';
-                                $html .= '<span>'.$secao->titulo.'</span>';
+                                $html .= '<span>'.$secao['titulo'].'</span>';
                             $html .= '</a>';
                             $html .= '<ul class="sub-menu-list">';
-                            foreach($subsecoes[0]->secoes as $subsecao){
-                                if($subsecao->secao_id == $secao->id){
+                            if(isset($secao['SubSecao']) && count($secao['SubSecao'])){
+                                foreach($secao['SubSecao'] as $subsecao){
                                     $html .= '<li>';
-                                        $html .= '<a href="'.BASE.'/admin/'.$subsecao->link.'/" >';
-                                        $html .= ''.$subsecao->titulo.'';
+                                        $html .= '<a href="'.BASE.'/admin/'.$subsecao['link'].'/" >';
+                                        $html .= ''.$subsecao['titulo'].'';
                                         $html .= '</a>';
                                     $html .= '</li>';  
+                                    
                                 }
                             }
                             $html .= '</ul>'; 
@@ -53,7 +54,7 @@ class SidebarleftComponent extends Component{
     	        }   
             }
             $html .= '</ul>';
-    		return $html;
+            return $html;
     	}	
     }
 }
